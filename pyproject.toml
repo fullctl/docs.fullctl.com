@@ -6,6 +6,7 @@ authors = ["20C <code@20c.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+mkdocs = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 
