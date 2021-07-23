@@ -1,4 +1,4 @@
-Sign Up with PeeringDB
+# Sign up for PeeringDB
 
 1. Go to: peeringdb.com. 
 2. Click on “Register” in the upper right corner of the screen.  
