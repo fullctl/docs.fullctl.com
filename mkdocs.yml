@@ -1,2 +1,14 @@
 site_name: docs.fullctl.com
+site_url: https://docs.fullctl.com
+repo_url: https://github.com/fullctl/docs.fullctl.com/
+
 theme: readthedocs
+
+nav:
+  - Home: index.md
+  - IXCtl:
+    - Sign up for IXCtl: ixctl/Sign-up-for-ixctl.md
+    - Share the Member List: ixctl/Share-the-member-list.md
+
+  - How Tos:
+    - Sign up for PeeringDB: howto/Sign-up-for-PeeringDB.md
