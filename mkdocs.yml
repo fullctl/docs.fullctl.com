@@ -6,11 +6,11 @@ theme: readthedocs
 
 nav:
   - Home: index.md
-  - Definitions: definitions.md
-  - PeerCtl:
+  - Definitions: Definitions.md
+#  - PeerCtl:
   - IXCtl:
     - Share the Member List: ixctl/Share-the-member-list.md
-  - PrefixCtl:
+#  - PrefixCtl:
   - How Tos:
     - Sign up for FullCtl: howto/Sign-up-for-account.md
     - Sign up for PeeringDB: howto/Sign-up-for-PeeringDB.md
