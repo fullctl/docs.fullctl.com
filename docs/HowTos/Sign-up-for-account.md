@@ -1,4 +1,4 @@
-# Sign up for-account
+# Sign up for FullCtl
 1. Go to: account.20c.com.
 2. Click on Register account.  
 ![](img/sign-up-for-account-images/step%202%20register%20account.jpg) 
