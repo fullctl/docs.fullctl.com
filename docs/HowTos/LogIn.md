@@ -7,4 +7,4 @@ You can access the different 20C products in the Services section.
 You can switch between accounts using the drop-down arrow next to your name. 
    ![](img/login-images/login2.png)
 4. When you are invited to join an Organization, you will receive an email with a link to accept the invitation. Pending invitations also appear in the right-side menu. 
-NOTE: add image here
+   ![](img/login-images/accept.png)
