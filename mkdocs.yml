@@ -6,9 +6,14 @@ theme: readthedocs
 
 nav:
   - Home: index.md
+  - Definitions: Definitions.md
+#  - PeerCtl:
   - IXCtl:
-    - Sign up for IXCtl: ixctl/Sign-up-for-ixctl.md
     - Share the Member List: ixctl/Share-the-member-list.md
-
+#  - PrefixCtl:
   - How Tos:
-    - Sign up for PeeringDB: howto/Sign-up-for-PeeringDB.md
+    - Sign up for FullCtl: HowTos/Sign-up-for-account.md
+    - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
+    - Login: HowTos/LogIn.md
+    - Add Organization: HowTos/Add-Organization.md
+    - Add Users: HowTos/Add-Users.md
