@@ -12,5 +12,5 @@
 7. Under available providers, choose PeeringDB and click “Add.”  
    ![](img/sign-up-for-account-images/step%207%20authenticate%20with%20peeringdb.jpg)
 8. You will be directed to the PeeringDB website. Make sure you are logged into the site. Click on “Authorize.” You will be redirected to the 20c website. When you click on “Linked Authentication” option on the right side of the screen you will see PeeringDB under “Linked Providers.”  
-   ![](img/sign-up-for-account-images/step%208%20add%20peeringdb.jpg)
+   ![](img/sign-up-for-account-images/add%peeringdb.png)
    ![](img/sign-up-for-account-images/step%208%20part%202.jpg)

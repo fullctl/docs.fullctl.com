@@ -5,7 +5,7 @@
    ![](img/add-users-images/invite.png)
 3. Pending invitations will appear grayed-out in the Support Account area.
    ![](img/add-users-images/pending.png)
-4. After a new user has accepted the invitation and created an account their name will appear in the Support Account Area. To assign User privileges, click on the Mange button next to the Users name.
+4. After a new user has accepted the invitation and created an account their name will appear in the list of Users. To assign User privileges, click on the Mange button next to the Users name.
    ![](img/add-users-images/useradded.png) 
 5. A drop-down menu provides options for assigning User privileges. The Remove button provides the option of removing the User from the Organization.
    ![](img/add-users-images/userpermissions.png) 
