@@ -14,6 +14,6 @@ nav:
   - How Tos:
     - Sign up for FullCtl: HowTos/Sign-up-for-account.md
     - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
-    - Login: HowTos/LogIn.md
+    - Login and Update Settings: HowTos/LogIn.md
     - Add Organization: HowTos/Add-Organization.md
     - Add Users: HowTos/Add-Users.md
