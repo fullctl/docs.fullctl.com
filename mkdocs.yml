@@ -10,7 +10,13 @@ nav:
 #  - PeerCtl:
   - IXCtl:
     - Share the Member List: ixctl/Share-the-member-list.md
-#  - PrefixCtl:
+  - PrefixCtl:
+    - Definitions: PREFIXCTL/PeerCtl-Definitions.md
+    - Add Prefix Set: PREFIXCTL/Add-Prefix-Set.md
+    - Settings: PREFIXCTL/Settings.md
+    - Add Monitor: PREFIXCTL/Add-Monitor.md
+    - Check Reputation: PREFIXCTL/Check-Reputation.md
+    - API: PREFIXCTL/API.md
   - How Tos:
     - Sign up for FullCtl: HowTos/Sign-up-for-account.md
     - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
