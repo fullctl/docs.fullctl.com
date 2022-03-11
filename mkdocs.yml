@@ -7,19 +7,19 @@ theme: readthedocs
 nav:
   - Home: index.md
   - Definitions: Definitions.md
-#  - PeerCtl:
-  - IXCtl:
-    - Share the Member List: ixctl/Share-the-member-list.md
-  - PrefixCtl:
-    - Definitions: prefixctl/PeerCtl-Definitions.md
-    - Add Prefix Set: prefixctl/Add-Prefix-Set.md
-    - Settings: prefixctl/Settings.md
-    - Add Monitor: prefixctl/Add-Monitor.md
-    - Check Reputation: prefixctl/Check-Reputation.md
-    - API: prefixctl/API.md
   - How Tos:
     - Sign up for FullCtl: HowTos/Sign-up-for-account.md
     - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
     - Login and Update Settings: HowTos/LogIn.md
     - Add Organization: HowTos/Add-Organization.md
     - Add Users: HowTos/Add-Users.md
+  #  - PeerCtl:
+  - IXCtl:
+    - Share the Member List: ixctl/Share-the-member-list.md
+  - PrefixCtl:
+    - Definitions: prefixctl/PrefixCtl-Definitions.md
+    - Add Prefix Set: prefixctl/Add-Prefix-Set.md
+    - Settings: prefixctl/Settings.md
+    - Add Monitor: prefixctl/Add-Monitor.md
+    - Check Reputation: prefixctl/Check-Reputation.md
+    - API: prefixctl/API.md
