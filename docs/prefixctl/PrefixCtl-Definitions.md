@@ -1,4 +1,4 @@
-# PeerCtl Definitions
+# PrefixCtl Definitions
 
 <strong>IRR Integration</strong> - Internet Routing Registry. When automatic IRR import is enabled the prefixes in this prefix set are managed automatically.
 
