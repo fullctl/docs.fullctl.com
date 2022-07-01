@@ -13,7 +13,10 @@ nav:
     - Login and Update Settings: HowTos/LogIn.md
     - Add Organization: HowTos/Add-Organization.md
     - Add Users: HowTos/Add-Users.md
-  #  - PeerCtl:
+  - aclCtl:
+    - Add a Rule: aclctl/Add-a-Rule.md
+    - Prioritize Rules: aclctl/Prioritize-Rules.md
+    - Custom Templates: aclctl/Custom-Templates.md
   - IXCtl:
     - Share the Member List: ixctl/Share-the-member-list.md
   - PrefixCtl:
