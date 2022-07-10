@@ -6,5 +6,4 @@
 
 <strong>Prefix Set</strong> - A group of unique Prefixes.
 
-<strong>Reputation Monitor</strong> - Person who will receive a notification status check email daily. Assigning a Reputation Monitor ensures daily reports are received. 
-
+<strong>Reputation Monitor</strong> - Person who will receive a notification status check email daily. Assigning a Reputation Monitor ensures daily reports are received.
