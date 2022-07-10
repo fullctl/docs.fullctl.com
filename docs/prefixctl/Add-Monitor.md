@@ -14,6 +14,6 @@ A Reputation Monitor can be assigned to each prefix set. Each prefix set can hav
 3. In the pop-up box, enter the email of the person who will be the monitor. Click Save
    ![](img/monitoremail.png)
 
-   
+
 4. When a Monitor has been assigned, the Reputation Monitor field will list Active and the Monitor’s email address will appear in the Notification email field. Monitor information can be edited or deleted using the tools on the right side of the table.
    ![](img/editmonitor.png)
