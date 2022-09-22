@@ -34,7 +34,29 @@ Click on Email Templates at the top of the window.
    
 
 Enter a name for the custom Template. Choose the Type of Template to be customized. Each type of template is based on one of the three steps in the Request Peering process. The default text will appear in the Body box and can be edited. Changes can be viewed in the Preview box below the Edit box. Edits are saved using the Save link at the bottom of the window. Custom email Templates will appear in the Request Peering pop-up box.
+
+Note: The following variables autofill into the email based on your network settings. These variables should not be edited.
+
+Example: https://github.com/fullctl/peerctl/blob/prep-release/src/django_peerctl/templates/peerctl/email_template/peer-request.txt
+
+`peer` - peer network object
+
+	`peer.company_name` - organization name of the peer network
+	`peer.asn` - ASN of the peer network
+	
+`my` - my network object
+
+	`my.company_name` - organization name of your network
+	`my.asn` - ASN of your network
+	`my.website` - URL of your website (as obtained from PeeringDB data)
+
+`mutual_locations` - list of mutually shared exchanges 
+
+	`exchange.name` - name of the internet exchange
    ![](img/customemail.png)
+
+The newly added Template will appear in the Templates list. It can be edited or deleted from here.
+   ![](img/emailtemplist.png)
 
 
 <strong>Peering Process</strong>
