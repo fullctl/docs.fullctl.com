@@ -8,11 +8,11 @@ nav:
   - Home: index.md
   - Definitions: Definitions.md
   - aaaCtl:
-    - Sign up for FullCtl: HowTos/Sign-up-for-account.md
-    - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
-    - Login and Update Settings: HowTos/LogIn.md
-    - Add Organization: HowTos/Add-Organization.md
-    - Add Users: HowTos/Add-Users.md
+    - Sign up for FullCtl: aaaCtl/Sign-up-for-account.md
+    - Sign up for PeeringDB: aaaCtl/Sign-up-for-PeeringDB.md
+    - Login and Update Settings: aaaCtl/LogIn.md
+    - Add Organization: aaaCtl/Add-Organization.md
+    - Add Users: aaaCtl/Add-Users.md
   - aclCtl:
     - Access Control List: aclctl/Access-Control-List.md
     - Add a Rule: aclctl/Add-a-Rule.md
