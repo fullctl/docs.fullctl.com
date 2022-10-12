@@ -14,7 +14,7 @@
 
 ## environment setup
 - internet access from at least 1 server
-- 
+-
 ## Server Setup
   - install container system
 

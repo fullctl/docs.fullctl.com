@@ -7,18 +7,28 @@ theme: readthedocs
 nav:
   - Home: index.md
   - Definitions: Definitions.md
-  - How Tos:
-    - Sign up for FullCtl: HowTos/Sign-up-for-account.md
-    - Sign up for PeeringDB: HowTos/Sign-up-for-PeeringDB.md
-    - Login and Update Settings: HowTos/LogIn.md
-    - Add Organization: HowTos/Add-Organization.md
-    - Add Users: HowTos/Add-Users.md
+  - aaaCtl:
+    - Sign up for FullCtl: aaaCtl/Sign-up-for-account.md
+    - Sign up for PeeringDB: aaaCtl/Sign-up-for-PeeringDB.md
+    - Login and Update Settings: aaaCtl/LogIn.md
+    - Add Organization: aaaCtl/Add-Organization.md
+    - Add Users: aaaCtl/Add-Users.md
   - aclCtl:
+    - Access Control List: aclCtl/Access-Control-List.md
     - Add a Rule: aclCtl/Add-a-Rule.md
     - Prioritize Rules: aclCtl/Prioritize-Rules.md
     - Custom Templates: aclCtl/Custom-Templates.md
   - IXCtl:
     - Share the Member List: ixctl/Share-the-member-list.md
+  - PeerCtl:
+    - Definitions: PeerCtl/PeerCtl-Definitions.md
+    - Summary: PeerCtl/Summary.md
+    - Settings: PeerCtl/Settings.md
+    - Add/Remove Connections: PeerCtl/AddRemove-Connections.md
+    - Set MD5 Password: PeerCtl/Set-MD5-Password.md
+    - Set Policy: PeerCtl/Set-Policy.md
+    - Device Configuration: PeerCtl/Device-Configuration.md
+    - Request Peering: PeerCtl/Request-Peering.md
   - PrefixCtl:
     - Definitions: prefixctl/PrefixCtl-Definitions.md
     - Add Prefix Set: prefixctl/Add-Prefix-Set.md
