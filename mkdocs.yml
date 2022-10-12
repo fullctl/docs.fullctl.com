@@ -21,14 +21,14 @@ nav:
   - IXCtl:
     - Share the Member List: ixctl/Share-the-member-list.md
   - PeerCtl:
-    - Definitions: PEERCTL/PeerCtl-Definitions.md
-    - Summary: PEERCTL/Summary.md
-    - Settings: PEERCTL/Settings.md
-    - Add/Remove Connections: PEERCTL/AddRemove-Connections.md
-    - Set MD5 Password: PEERCTL/Set-MD5-Password.md
-    - Set Policy: PEERCTL/Set-Policy.md
-    - Device Configuration: PEERCTL/Device-Configuration.md
-    - Request Peering: PEERCTL/Request-Peering.md
+    - Definitions: PeerCtl/PeerCtl-Definitions.md
+    - Summary: PeerCtl/Summary.md
+    - Settings: PeerCtl/Settings.md
+    - Add/Remove Connections: PeerCtl/AddRemove-Connections.md
+    - Set MD5 Password: PeerCtl/Set-MD5-Password.md
+    - Set Policy: PeerCtl/Set-Policy.md
+    - Device Configuration: PeerCtl/Device-Configuration.md
+    - Request Peering: PeerCtl/Request-Peering.md
   - PrefixCtl:
     - Definitions: prefixctl/PrefixCtl-Definitions.md
     - Add Prefix Set: prefixctl/Add-Prefix-Set.md

@@ -14,3 +14,7 @@ repos:
     rev: v0.9.7
     hooks:
       - id: pymarkdown
+        args:
+            - --disable-rules
+            - line-length
+            - scan
