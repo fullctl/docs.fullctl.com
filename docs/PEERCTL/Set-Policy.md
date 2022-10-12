@@ -10,11 +10,11 @@ Policy options can be modified using the Templates tab.
 
 To modify the Global Policy, click on the pencil, enter the desired information, click Save.
    ![](img/editglobal.png)
-   
 
-To add a new Policy, enter the desired content and click Save. 
+
+To add a new Policy, enter the desired content and click Save.
    ![](img/addpolicy.png)
-      
+
 
 The newly added Policy will appear in the Policies list. It can be edited or deleted from here. It will also appear in the drop-down menu on the PeeringLists page.
    ![](img/policysample.png)
