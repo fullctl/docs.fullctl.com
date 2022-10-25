@@ -36,3 +36,7 @@ nav:
     - Add Monitor: prefixctl/Add-Monitor.md
     - Check Reputation: prefixctl/Check-Reputation.md
     - API: prefixctl/API.md
+  - DeviceCtl:
+    - Add Facility: DeviceCtl/Add-Facility.md
+    - Add Device: DeviceCtl/Add-Device.md
+    - Ports: DeviceCtl/Ports.md
