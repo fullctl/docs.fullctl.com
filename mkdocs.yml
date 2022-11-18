@@ -23,7 +23,7 @@ nav:
     - Create an IX: ixctl/Create-an-IX.md
     - Add a Memeber: ixctl/Add-a-Member.md
     - Share the Member List: ixctl/Share-the-member-list.md
-    - Add Routeserver: ixctl/Add-Routeserver.md
+    - Add a Routeserver: ixctl/Add-A-Routeserver.md
     - Delete Exchange: ixctl/Delete-Exchange.md
   - PeerCtl:
     - Definitions: PeerCtl/PeerCtl-Definitions.md
@@ -42,6 +42,7 @@ nav:
     - Check Reputation: prefixctl/Check-Reputation.md
     - API: prefixctl/API.md
   - DeviceCtl:
+    - Definitions: DeviceCtl/Definitions.md
     - Add Facility: DeviceCtl/Add-Facility.md
     - Add Device: DeviceCtl/Add-Device.md
     - Ports: DeviceCtl/Ports.md

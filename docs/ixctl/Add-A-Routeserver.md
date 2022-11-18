@@ -1,4 +1,4 @@
-# Add Routeserver
+# Add a Routeserver
 
 To add a routeserver, click on the Settings tab. Click Create, which is below the Routeservers heading in the menu on the left.
    ![](img/add-routeserver/createrouteserver.png)
