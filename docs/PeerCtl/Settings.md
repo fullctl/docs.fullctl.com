@@ -1,7 +1,7 @@
 # Settings
 
 Choose the Exchange/Port to be used from the drop down box on the left side of the window. The data displayed is populated from PeeringDB.
-<strong>Note: It is important to keep your PeeringDB account up-to-date to produce the most accurate data on PeerCtl.</strong>
+**Note: It is important to keep your PeeringDB account up-to-date to produce the most accurate data on PeerCtl.**
     ![](img/exchangeport.png)
 
 

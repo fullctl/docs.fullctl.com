@@ -23,7 +23,7 @@ For each step of the Request Peering process, an email is sent to the network of
    ![](img/defaultemail.png)
 
 
-<strong>Custom Email Templates</strong>
+**Custom Email Templates**
 
 To create custom emails, close the Request Peering pop-up box and click on the Templates tab at the top of the window.
    ![](img/templates.png)
@@ -71,7 +71,7 @@ The newly added Template will appear in the Templates list. It can be edited or 
    ![](img/emailtemplist.png)
 
 
-<strong>Peering Process</strong>
+**Peering Process**
 
 Step 1: Request
 
