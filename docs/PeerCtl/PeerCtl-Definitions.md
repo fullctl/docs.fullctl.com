@@ -1,5 +1,5 @@
 # PeerCtl Definitions
 
-<strong>Device</strong> - Router or switch.
+**Device** - Router or switch.
 
-<strong>Exchange/Port</strong> - Refers to the physical location of a network.
+**Exchange/Port** - Refers to the physical location of a network.

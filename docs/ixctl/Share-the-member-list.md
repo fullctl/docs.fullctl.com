@@ -1,4 +1,5 @@
 # Share the Member List
+
 1. From the drop down menu, choose the IX page you want to share from. Then click on the Settings tab at the top of the page.
    ![](img/share-the-member-list-images/step1.png)
 2. Under IX-F Export Privacy Setting choose “Public (Anyone can view)” or “Private (Requires secret key to view).” Click Save.
