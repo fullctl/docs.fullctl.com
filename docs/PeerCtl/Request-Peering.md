@@ -37,22 +37,30 @@ Enter a name for the custom Template. Choose the Type of Template to be customiz
 
 Note: The following variables autofill into the email based on your network settings. These variables should not be edited.
 
-Example: https://github.com/fullctl/peerctl/blob/prep-release/src/django_peerctl/templates/peerctl/email_template/peer-request.txt
+Example: [https://github.com/fullctl/peerctl/blob/prep-release/src/django_peerctl/templates/peerctl/email_template/peer-request.txt](https://github.com/fullctl/peerctl/blob/prep-release/src/django_peerctl/templates/peerctl/email_template/peer-request.txt)
 
-`peer` - peer network object
+- `peer` - peer network object
+    - `peer.company_name` - organization name of the peer network
+    - `peer.asn` - ASN of the peer network
 
-	`peer.company_name` - organization name of the peer network
-	`peer.asn` - ASN of the peer network
 
-`my` - my network object
+- `my` - my network object
+    - `my.company_name` - organization name of your network
+    - `my.asn` - ASN of your network
+    - `my.website` - URL of your website (as obtained from PeeringDB data)
 
-	`my.company_name` - organization name of your network
-	`my.asn` - ASN of your network
-	`my.website` - URL of your website (as obtained from PeeringDB data)
 
-`mutual_locations` - list of mutually shared exchanges
+- `mutual_locations` - list of mutually shared exchanges
+    - `exchange.name` - name of the internet exchange
+    - `exchange.ip4` - ip4 address
+    - `exchange.ip6` - ip6 address
 
-    `exchange.name` - name of the internet exchange
+
+- `selected_exchanges` - list of selected exchanges when opening a peering request through the Networks view
+    - `exchange.name` - name of the internet exchange
+    - `exchange.ip4` - ip4 address
+    - `exchange.ip6` - ip6 address
+
 
 Note: List of jinja variables:
 
