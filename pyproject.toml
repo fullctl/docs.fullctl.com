@@ -7,6 +7,7 @@ authors = ["20C <code@20c.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 mkdocs = "^1.2.2"
+mkdocs-material = "^9.0.5"
 
 [tool.poetry.dev-dependencies]
 pre-commit = ">=2.13"

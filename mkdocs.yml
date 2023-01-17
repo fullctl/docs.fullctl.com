@@ -2,7 +2,8 @@ site_name: docs.fullctl.com
 site_url: https://docs.fullctl.com
 repo_url: https://github.com/fullctl/docs.fullctl.com/
 
-theme: readthedocs
+theme:
+  name: material
 
 nav:
   - Home: index.md
