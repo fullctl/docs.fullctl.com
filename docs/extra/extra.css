@@ -1,0 +1,26 @@
+.md-nav {
+  font-size: 1rem;
+}
+
+.md-nav__link > div {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.md-nav__link span.md-icon {
+  display: flex;
+}
+
+.md-nav__item--nested .md-nav__toggle:checked ~ .md-nav__link .nav-container {
+  border-bottom: 2px solid #000;
+}
+
+.md-nav__item {
+  --md-accent-fg-color: currentColor;
+}
+
+.md-nav__item .md-nav__link--active {
+  font-weight: bold;
+  color: currentColor;
+}
