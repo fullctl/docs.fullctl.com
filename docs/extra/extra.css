@@ -2,9 +2,56 @@
   --md-primary-fg-color: #191F26;
 }
 
+html {
+  font-size: 100%;
+}
+
+.md-typeset {
+  font-size: 1.25rem;
+}
+
+.md-grid {
+  max-width: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 /** nav **/
-.md-nav {
-  font-size: 1rem;
+.md-sidebar__scrollwrap {
+  margin: 0;
+}
+
+.md-sidebar:not(.md-sidebar--secondary),
+.md-sidebar:not(.md-sidebar--secondary) .md-sidebar__inner,
+.md-sidebar:not(.md-sidebar--secondary) .md-sidebar__scrollwrap {
+  background-color: #BCBEC0;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary .md-nav__title {
+    box-shadow: none;
+    background-color: #BCBEC0;
+  }
+
+  nav.md-nav--primary {
+    font-size: 1.5rem;
+    padding-left: 20%;
+  }
+
+  .md-sidebar--primary {
+    max-width: 29.25rem;
+    width: 32%;
+    margin-right: 10%;
+  }
+
+}
+
+nav.md-nav {
+  font-size: 1.25rem;
+}
+
+.md-nav__title {
+  font-size: 2.25rem;
 }
 
 .md-nav__link > div {
@@ -18,7 +65,7 @@
 }
 
 .md-nav__item--nested .md-nav__toggle:checked ~ .md-nav__link .nav-container {
-  border-bottom: 2px solid #000;
+  border-bottom: 0.25rem solid #D1FF27;
 }
 
 .md-nav__item {
@@ -28,6 +75,36 @@
 .md-nav__item .md-nav__link--active {
   font-weight: bold;
   color: currentColor;
+}
+
+.sidebar_footer {
+  background-color: #f1F2F2;
+  display: flex;
+  padding: 0.25rem;
+  padding-left: 20%;
+}
+
+.sidebar_footer a{
+  padding: 0;
+}
+
+.sidebar_footer .prev-next {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar_footer .md-footer__link--next {
+  margin-left: 0;
+}
+
+.sidebar_footer .github{
+  flex-grow: 1;
+  padding-left: .6rem;
+}
+
+.sidebar_footer .github svg{
+  color: #BCBEC0;
 }
 
 /** header **/
@@ -69,7 +146,6 @@ header nav {
 }
 
 .header-middle > div {
-  flex: 1 1 0px;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
   padding-left: 1rem;
@@ -93,4 +169,11 @@ header nav {
   background-color: #D1FF27;
   color: #000;
   font-weight: bold;
+}
+
+/** general */
+.md-typeset h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 0 0.5em;
 }
