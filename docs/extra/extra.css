@@ -1,3 +1,8 @@
+:root {
+  --md-primary-fg-color: #191F26;
+}
+
+/** nav **/
 .md-nav {
   font-size: 1rem;
 }
@@ -23,4 +28,69 @@
 .md-nav__item .md-nav__link--active {
   font-weight: bold;
   color: currentColor;
+}
+
+/** header **/
+header {
+  background-color: #191F26;
+}
+
+header nav {
+  height: 3.5rem;
+  font-size: 1rem;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+  height: 100%;
+}
+
+.header-middle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+.header-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.header-middle > div,
+.header-right > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.header-middle > div {
+  flex: 1 1 0px;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 52.25em) {
+  .header-middle div {
+    display: none;
+  }
+}
+
+.header-right .request-demo {
+  margin-top: auto;
+  margin-left: 0.25rem;
+  height: 75%;
+  padding: 0.5rem;
+  padding-top: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background-color: #D1FF27;
+  color: #000;
+  font-weight: bold;
 }
