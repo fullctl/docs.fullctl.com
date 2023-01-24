@@ -11,8 +11,8 @@ extra_javascript:
 theme:
   name: material
   palette:
-    primary: #191F26
-    accent: #D1FF27
+    primary: "#191F26"
+    accent: "#D1FF27"
   font:
     text: Archivo
   logo: extra/assets/FullCTL-Logo-LightBG.svg

@@ -77,6 +77,39 @@ nav.md-nav {
   color: currentColor;
 }
 
+nav.path {
+  background-color: #F1F2F2;
+}
+
+nav.path,
+nav.path nav {
+  height: initial;
+}
+
+nav.path .md-path {
+  font-size: 0.875rem;
+  padding-top: 0;
+}
+
+nav.path .md-path__item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+nav.path .md-path__list .md-path__item:first-child {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 76.25em) {
+  header.md-header {
+    box-shadow: none;
+  }
+
+  nav.path .md-path__list {
+    margin-left: 7.25rem;
+  }
+}
+
 /** sidebar **/
 
 .sidebar_footer {

@@ -27,8 +27,17 @@
       {% if page.next_page %}
         <link rel="next" href="{{ page.next_page.url | url }}">
       {% endif %}
+      {% if config.extra.alternate is iterable %}
+        {% for alt in config.extra.alternate %}
+          <link rel="alternate" href="{{ alt.link | url }}" hreflang="{{ alt.lang | d(lang.t('language')) }}">
+        {% endfor %}
+      {% endif %}
+      {% if "rss" in config.plugins %}
+        <link rel="alternate" type="application/rss+xml" title="{{ lang.t('rss.created') }}" href="{{ 'feed_rss_created.xml' | url }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ lang.t('rss.updated') }}" href="{{ 'feed_rss_updated.xml' | url }}">
+      {% endif %}
       <link rel="icon" href="{{ config.theme.favicon | url }}">
-      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.0.5">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.0.5+insiders-4.28.1">
     {% endblock %}
     {% block htmltitle %}
       {% if page.meta and page.meta.title %}
@@ -40,7 +49,7 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.558e4712.min.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.c97aee8c.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
         <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.2505c338.min.css' | url }}">
@@ -88,9 +97,6 @@
     <body dir="{{ direction }}">
   {% endif %}
     {% set features = config.theme.features or [] %}
-    {% if not config.theme.palette is mapping %}
-      {% include "partials/javascripts/palette.html" %}
-    {% endif %}
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -218,6 +224,9 @@
           {% endblock %}
           {% block container %}
             <div class="md-content" data-md-component="content">
+              {% if "navigation.path" in features %}
+                {% include "partials/path.html" %}
+              {% endif %}
               <article class="md-content__inner md-typeset">
                 {% block content %}
                   {% include "partials/content.html" %}
@@ -297,7 +306,7 @@
         "base": base_url,
         "features": features,
         "translations": {},
-        "search": "assets/javascripts/workers/search.e5c33ebb.min.js" | url
+        "search": "assets/javascripts/workers/search.f236eb64.min.js" | url
       } -%}
       {%- if config.extra.version -%}
         {%- set _ = app.update({ "version": config.extra.version }) -%}
@@ -325,7 +334,7 @@
       </script>
     {% endblock %}
     {% block scripts %}
-      <script src="{{ 'assets/javascripts/bundle.51d95adb.min.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/bundle.b5a861c9.min.js' | url }}"></script>
       {% for path in config.extra_javascript %}
         <script src="{{ path | url }}"></script>
       {% endfor %}
