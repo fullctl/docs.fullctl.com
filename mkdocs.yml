@@ -9,6 +9,7 @@ extra_javascript:
   - extra/extra.js
 
 theme:
+  favicon: extra/assets/favicon.ico
   name: material
   palette:
     primary: "#191F26"
