@@ -4,5 +4,5 @@ Use the arrow next to Show/Edit/Add Prefixes to view the prefix sets. When the c
    ![](img/showprefix.png)
 
 
-A Prefix Set can be edited using the Edit option in the upper right side of the page. This allows the information that was originally entered about the prefix to be updated.
+A prefix set can be edited using the Edit option in the upper right side of the page. This allows the information that was originally entered about the prefix to be updated.
    ![](img/edit.png)
