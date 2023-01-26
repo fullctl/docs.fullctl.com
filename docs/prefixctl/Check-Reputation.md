@@ -10,7 +10,7 @@ To update the reputation check, click Refresh. This may take a few moments to pr
    ![](img/refresh.png)
 
 
-The Reputation status will appear as either “Issues” to indicate the check found a problem with one or more of the Prefix Sets or “Ok” to indicate there are no problems with the Prefix Sets. The specific prefix with issues will appear in the list view.
+The Reputation status will appear as either “Issues” to indicate the check found a problem with one or more of the prefix sets or “Ok” to indicate there are no problems with the prefix sets. The specific prefix with issues will appear in the list view.
    ![](img/issuesok.png)
 
 
