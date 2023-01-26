@@ -3,7 +3,7 @@
 A Reputation Monitor can be assigned to each prefix set. Each prefix set can have only one Reputation Monitor. The Reputation Monitor will receive email notifications when reputation issues are found. When a Reputation Monitor is assigned, an automatic check will occur once per day.
 
 
-To assign a Monitor to a Prefix set, click Add a monitor to this set.
+To assign a Monitor to a prefix set, click Add a monitor to this set.
    ![](img/addmonitor.png)
 
 
