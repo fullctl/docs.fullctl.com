@@ -1,6 +1,10 @@
-# Add a Routeserver
+# Add a Route Server
 
-To add a routeserver, click on the Settings tab. Click Create, which is below the Routeservers heading in the menu on the left.
-   ![](img/add-routeserver/createrouteserver.png)
-There may be an option to use an existing routeserver as a starting point or start fresh by entering new information. 
-   ![](img/add-routeserver/routeserver.png)
+Select the Exchange to which a route server will be added from the header menu. 
+   ![](img/addmember.png)
+   
+Next, click on the Add Route server button.  
+   ![](img/addrouteserver.png)
+
+Enter the route server information and click Save.
+   ![](img/createrouteserver.png)
