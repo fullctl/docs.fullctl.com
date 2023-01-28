@@ -50,7 +50,8 @@ Note: List of jinja variables:
     - `prefix_length4`: max prefixes ipv4
     - `prefix_length6`: max prefixes ipv6
 
-   ![](img/customemail.png)
-
 The newly added Template will appear in the Templates list. It can be edited or deleted from here.
    ![](img/emailtemplist.png)
+   
+Custom email Templates will appear in the Request Peering popup box.
+   ![](img/requestpeeringpopup.png)
