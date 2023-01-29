@@ -7,15 +7,15 @@ theme: readthedocs
 nav:
   - Home: index.md
     - Components: Components.md
-  IX Administrators Guide
+  - IX Administrators Guide
   - Overview: IX-Admin-Guide/Overview.md
   - Prerequisites & Requirements: IX-Admin-Guide/Prereq-Req.md
   - Setting up Your Organization in fullCtl: IX-Admin-Guide/Setting-up-Org.md
   - Linking to fullCtl, Installing and Testing Your Containers: IX-Admin-Guide/Linking-to-fullCtl.md
   - Troubleshooting: IX-Admin-Guide/Troubleshooting.md
-  IX Users Guide
+  - IX Users Guide
   - Definitions: Definitions.md
-  Component Reference
+  - Component Reference
   - aaaCtl:
     - Sign up for FullCtl: aaaCtl/Sign-up-for-account.md
     - Sign up for PeeringDB: aaaCtl/Sign-up-for-PeeringDB.md
