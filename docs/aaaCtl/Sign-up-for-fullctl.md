@@ -1,4 +1,4 @@
-# Sign up for fullCtl
+# Sign up for FullCtl
 
 Go to: account.20c.com. Click on Register account.
    ![](img/regacct.png)
