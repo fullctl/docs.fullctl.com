@@ -1,7 +1,11 @@
 # Create an IX
 
-From the Members tab, click on Create.
-   ![](img/create-an-ix/create.png)
-In the pop up box, enter the New Exchange name and click “continue.” An empty IX space will appear.</br>
-   ![](img/create-an-ix/createpopup.png)</br>
-In the empty IX space, a Routeserver or Member can be added. 
+From the drop down menu in the header, click Create Exchange.
+   ![](img/create.png)
+   
+In the modal, enter the New Exchange name and click Continue. An empty IX space will appear.
+   ![](img/createmodal.png)
+   
+The name of the new exchange will appear in the header menu.
+   ![](img/addmember.png)
+In the (new) empty IX space, a Routeserver or Member can be added. 

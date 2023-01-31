@@ -4,9 +4,9 @@ Using the MD5 Password link you can set the password for the desired network ses
    ![](img/password.png)
 
 
-In the pop-up box, type the desired password and click Save.
+In the popup box, type the desired password and click Save.
    ![](img/setpassword.png)
 
 
-Click on Show Config for the network. In the pop-up box, the password appears in the configuration after “authentication-key.”
+To view the password, click on Show Config for the network. The password will appear in the popup box configuration.
    ![](img/seepassword.png)

@@ -21,13 +21,23 @@ theme:
 
 nav:
   - Home: index.md
+    - Components: Components.md
+  - IX Administrators Guide
+  - Overview: IX-Admin-Guide/Overview.md
+  - Prerequisites & Requirements: IX-Admin-Guide/Prereq-Req.md
+  - Setting up Your Organization in fullCtl: IX-Admin-Guide/Setting-up-Org.md
+  - Linking to fullCtl, Installing and Testing Your Containers: IX-Admin-Guide/Linking-to-fullCtl.md
+  - Troubleshooting: IX-Admin-Guide/Troubleshooting.md
+  - IX Users Guide
   - Definitions: Definitions.md
+  - Component Reference
   - aaaCtl:
     - Sign up for FullCtl: aaaCtl/Sign-up-for-account.md
     - Sign up for PeeringDB: aaaCtl/Sign-up-for-PeeringDB.md
     - Login and Update Settings: aaaCtl/LogIn.md
     - Add Organization: aaaCtl/Add-Organization.md
     - Add Users: aaaCtl/Add-Users.md
+    - User Privileges: aaaCtl/User-Privileges.md
   - aclCtl:
     - Access Control List: aclCtl/Access-Control-List.md
     - Add a Rule: aclCtl/Add-a-Rule.md
@@ -36,26 +46,32 @@ nav:
   - IXCtl:
     - Import an IX: ixctl/Import-an-IX.md
     - Create an IX: ixctl/Create-an-IX.md
-    - Add a Memeber: ixctl/Add-a-Member.md
+    - Add a Member: ixctl/Add-a-Member.md
     - Share the Member List: ixctl/Share-the-member-list.md
-    - Add a Routeserver: ixctl/Add-A-Routeserver.md
+    - Add a Route Server: ixctl/Add-A-Routeserver.md
     - Delete Exchange: ixctl/Delete-Exchange.md
   - PeerCtl:
     - Definitions: PeerCtl/PeerCtl-Definitions.md
     - Summary: PeerCtl/Summary.md
-    - Settings: PeerCtl/Settings.md
-    - Add/Remove Connections: PeerCtl/AddRemove-Connections.md
+    - Add Peering Session: PeerCtl/Add-Peering-Session.md
+    - Peering Settings: PeerCtl/Peering-Settings.md
+    - Add/Remove Network Connection: PeerCtl/AddRemove-Network-Connection.md
     - Set MD5 Password: PeerCtl/Set-MD5-Password.md
-    - Set Policy: PeerCtl/Set-Policy.md
+    - Set Policy & Device Type: PeerCtl/Set-Policy-Device-Type.md
+    - Templates: PeerCtl/Templates.md
+    - Request Peering Option 1: PeerCtl/Request-Peering-1.md
+    - Request Peering Option 2: PeerCtl/Request-Peering-2.md
+    - Custom Email Templates: PeerCtl/Custom-Email-Templates.md
+    - Peering Process: PeerCtl/Peering-Process.md
     - Device Configuration: PeerCtl/Device-Configuration.md
-    - Request Peering: PeerCtl/Request-Peering.md
   - PrefixCtl:
     - Definitions: prefixctl/PrefixCtl-Definitions.md
     - Add Prefix Set: prefixctl/Add-Prefix-Set.md
+    - Add ASN: prefixctl/Add-ASN.md
+    - API: prefixctl/API.md
     - Settings: prefixctl/Settings.md
     - Add Monitor: prefixctl/Add-Monitor.md
     - Check Reputation: prefixctl/Check-Reputation.md
-    - API: prefixctl/API.md
   - DeviceCtl:
     - Definitions: DeviceCtl/Definitions.md
     - Add Facility: DeviceCtl/Add-Facility.md
