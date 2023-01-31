@@ -10,7 +10,7 @@ Enter a name for the custom Template. Choose the Type of Template to be customiz
    ![](img/customemail.png)
    
 The default text will appear in the Body box and can be edited. Changes can be viewed in the Preview box below the Edit box. Edits are saved using the Save link at the bottom of the window. 
-   ![](img/ customemailsample.png)
+   ![](img/customemailsample.png)
    
 Note: The following variables autofill into the email based on your network settings. These variables should not be edited.
 
