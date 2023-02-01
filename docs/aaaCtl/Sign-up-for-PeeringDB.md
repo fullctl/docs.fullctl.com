@@ -1,6 +1,6 @@
 # Sign up for PeeringDB
 
-Go to: peeringdb.com.
+Go to: [peeringdb.com](https://www.peeringdb.com).
   ![](img/pdbreg.png)
 
 Click on Register in the upper right corner of the screen.
