@@ -24,13 +24,14 @@ The new Template will appear in the popup box drop down menu
 The configuration specifications for the new Template will appear in the popup box. The text can be copied for pasting into router configurations using the Copy to Clipboard option at the bottom of the box. 
 Note: The following variables autofill into the email based on your network settings. These variables should not be edited. 
 Example: https://github.com/20c/netom/blob/master/src/netom/templates/netom0/bird1-0/bgp/neighbors.j2
-- `device.type` - device type 
+
+- `device.type` - device type
 - `peer_groups` - a `dictionary` of peers with group name as key
 - `peer.peer_as` - ASN of the peer
 - `peer.name` - Name of the peer
 - `peer.neighbor_address` - ip address of neighbor
 - `peer.local_as` - local asn
-- `peer.auth_password` - md5 
+- `peer.auth_password` - md5
 - `peer.max_prefixes` - max number of prefixes
 - `peer.import_policy` - import policy
 - `peer.export_policy` - export policy
