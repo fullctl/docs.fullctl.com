@@ -26,8 +26,8 @@ nav:
   - IX Administrators Guide:
     - Overview: IX Admin Guide/Overview.md
     - Prerequisites & Requirements: IX Admin Guide/Prereq-Req.md
-    - Setting up Your Organization in fullCtl: IX Admin Guide/Setting-up-Org.md
-    - Linking to fullCtl, Installing and Testing Your Containers: IX Admin Guide/Linking-to-fullCtl.md
+    - Setting up Your Organization in FullCtl: IX Admin Guide/Setting-up-Org.md
+    - Linking to FullCtl, Installing and Testing Your Containers: IX Admin Guide/Linking-to-fullCtl.md
     - Troubleshooting: IX Admin Guide/Troubleshooting.md
   - IX Users Guide:
     - Definitions: Definitions.md
@@ -43,7 +43,7 @@ nav:
       - Add a Rule: aclCtl/Add-a-Rule.md
       - Prioritize Rules: aclCtl/Prioritize-Rules.md
       - Custom Templates: aclCtl/Custom-Templates.md
-    - IXCtl:
+    - ixCtl:
       - Import an IX: ixctl/Import-an-IX.md
       - Create an IX: ixctl/Create-an-IX.md
       - Add a Member: ixctl/Add-a-Member.md
