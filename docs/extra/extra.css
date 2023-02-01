@@ -6,6 +6,14 @@ html {
   font-size: 100%;
 }
 
+.md-content article a {
+  color: var(--md-accent-fg-color);
+}
+
+.md-content article .article_footer a {
+  color: inherit;
+}
+
 img {
   display: block;
 }
