@@ -1,4 +1,4 @@
-# Sign up for fullCtl
+# Sign up for FullCtl
 
 Go to: account.20c.com. Click on Register account.
    ![](img/regacct.png)
@@ -20,5 +20,5 @@ Click on the Linked Authentication option on the right side of the screen. Under
 You will be directed to the PeeringDB website. Make sure you are logged into the site. Click on Authorize.
    ![](img/authorize.png)
 
-You will be redirected to the 20c website. When you click on Linked Authentication option on the right side of the screen you will see PeeringDB under Linked Providers.
+You will be redirected to the 20C website. When you click on Linked Authentication option on the right side of the screen you will see PeeringDB under Linked Providers.
    ![](img/linked.png)

@@ -1,6 +1,6 @@
-# Setting up Your Organization in fullCtl
+# Setting up Your Organization in FullCtl
 
-If you do not already have users and organizations in fullCtl, the first thing you need to do is sign in and create an organization. While it’s possible to create an IX without an organization, it’s recommended to use organizations to organize things. Organizations also allow easy segmentation of responsibilities if you have more than one or different people responsible for different IXs, etc. Note that you (and other members of your organization) can use our OAuth support to login with an existing google or PeeringDB account. If you have an existing OAuth authentication infrastructure, you can contact 20c for help integrating it with fullCtl.
+If you do not already have users and organizations in FullCtl, the first thing you need to do is sign in and create an organization. While it’s possible to create an IX without an organization, it’s recommended to use organizations to organize things. Organizations also allow easy segmentation of responsibilities if you have more than one or different people responsible for different IXs, etc. Note that you (and other members of your organization) can use our OAuth support to login with an existing google or PeeringDB account. If you have an existing OAuth authentication infrastructure, you can contact 20c for help integrating it with FullCtl.
 
 References
 - [Create Your Login](https://docs.fullctl.com/aaaCtl/Sign-up-for-account/)
@@ -10,7 +10,7 @@ References
 If you create a user to manage your IX, they will need the following read/write permissions for route server configuration and member management: Internet Exchange Member, Routeserver, Routeserver config.
    ![](ixmgr.png)
    
-If you are incorporate deviceCtl for infrastructure management and statistics, you will also want: Device, Facility, Logical Port, Physical Port, Virtual Port.
+If you are incorporate DeviceCtl for infrastructure management and statistics, you will also want: Device, Facility, Logical Port, Physical Port, Virtual Port.
    ![](devicemgr.png)
    
 Once you have your organization and users setup, click on the ixCtl button under services to proceed to create and configure your IX and services.

@@ -1,4 +1,4 @@
-# Linking to fullCtl, Installing and Testing Your Containers
+# Linking to FullCtl, Installing and Testing Your Containers
 
 For VMs or basemetal, ixCtl uses systemd to download and manage it’s containers. You can paste this configuration into /etc/systemd/system/fullctl-routeserver.service. If your route server systems require the use of a proxy or other configuration specific to your environment, you can update this template as needed. ixCtl route servers are further configured by a .env file detailed below.
 
@@ -37,7 +37,7 @@ For VMs or basemetal, ixCtl uses systemd to download and manage it’s container
     [Install]
     WantedBy=default.target
 
-Next, create the directory structure needed by fullCtl route servers:
+Next, create the directory structure needed by FullCtl route servers:
 
     sudo mkdir -p /srv/fullctl/rs/bird/var/run
     sudo mkdir -p /srv/fullctl/rs/bird/etc
