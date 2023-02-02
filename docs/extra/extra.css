@@ -19,7 +19,7 @@ img {
 }
 
 .md-typeset {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .md-grid {
@@ -73,7 +73,7 @@ img {
 }
 
 nav.md-nav .md-nav__link {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .md-nav__title {
@@ -240,7 +240,7 @@ header nav {
 
 /** general */
 .md-typeset h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin: 0 0 0.5em;
 }
