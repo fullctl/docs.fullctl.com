@@ -55,7 +55,7 @@ img {
 
   .md-sidebar--primary {
     max-width: 29.25rem;
-    width: 32%;
+    width: 24%;
     margin-right: 4%;
   }
 
@@ -96,6 +96,7 @@ nav.md-nav .md-nav__link {
 
 .md-nav__item {
   --md-accent-fg-color: currentColor;
+  width: max-content;
 }
 
 .md-nav__item .md-nav__link--active {
