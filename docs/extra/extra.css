@@ -96,7 +96,7 @@ nav.md-nav .md-nav__link {
 
 .md-nav__item {
   --md-accent-fg-color: currentColor;
-  width: max-content;
+  max-width: 100%;
 }
 
 .md-nav__item .md-nav__link--active {
