@@ -18,8 +18,4 @@ PeerCtl - take data directly from PeeringDB, combine it with your policies and g
 - DeviceCtl - manage your physical infrastructure, assign ports and logical configurations, and maintain a SoT for easy configuration and monitoring
 - custom Ctl - you can integrate FullCtl’s SoT with your existing workflow or custom code through our rich API, or 20c can create custom integrations for your specific needs
 
-# About this Documentation
-
-FullCtl documentation is divided into two main sections. The first is a series of use case workflow guides to walk you through setting up and implementing common implementations such as an IXP. The second section is a reference guide to the various components and definitions as used by FullCtl. It is recommended that you read through a workflow guide that is appropriate to your use case, then use the reference guide as needed to get further information about the various modules.
-
 Contact us: <a href="mailto: hello@fullctl.com" target="_blank">hello@fullctl.com</a>
