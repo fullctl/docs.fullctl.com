@@ -72,7 +72,7 @@ nav:
       - Ports: DeviceCtl/Ports.md
   - IX Administrators Guide:
     - Overview: IX Admin Guide/Overview.md
-    - Prerequisites & Requirements: IX Admin Guide/Prereq-Req.md
-    - Setting up Your Organization in FullCtl: IX Admin Guide/Setting-up-Org.md
-    - Linking to FullCtl, Installing and Testing Your Containers: IX Admin Guide/Linking-to-fullCtl.md
+    - Requirements: IX Admin Guide/Prereq-Req.md
+    - Initial Setup: IX Admin Guide/Setting-up-Org.md
+    - Service Container Setup: IX Admin Guide/Linking-to-fullCtl.md
     - Troubleshooting: IX Admin Guide/Troubleshooting.md
