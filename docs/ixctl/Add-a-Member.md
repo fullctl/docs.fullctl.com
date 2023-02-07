@@ -1,6 +1,13 @@
 # Add a Member
 
-To add a member, click on Add Member from the menu on the left. 
-   ![](img/add-a-member/addmember.png)
-In the popup box, enter the information and click Save.
-   ![](img/add-a-member/addmempopup.png)
+Select the Exchange to which a member will be added from the header menu.  
+   ![](img/addmember.png)
+   
+Next, click on the Add Member button.
+   ![](img/addmembutton.png)
+
+In the modal, enter the information and click Save.
+   ![](img/addmemmodal.png)
+
+Member information can be edited or the member can be removed using the options on the right side of the window.
+   ![](img/memberedit.png)

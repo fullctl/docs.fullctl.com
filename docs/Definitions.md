@@ -7,6 +7,6 @@
 
 **Permissions** – The Read/Write allowances given to a User by an Organization Administrator. All data is tied to an Organization and Users in an Organization can access the data based on the permissions they are given.
 
-**Services** – Products offered through FullCtl such as PeerCtl, IXCtl, PrefixCtl.
+**Services** – Products offered through FullCtl such as PeerCtl, ixCtl, PrefixCtl.
 
 **User** – An individual with a login. A User may be part of more than one Organization. A User can set their own preferences, username and password. Some Users have Administrator privileges and can add other Users and set permissions. A User can create their own Organization and sign up for services.

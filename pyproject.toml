@@ -7,6 +7,7 @@ authors = ["20C <code@20c.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 mkdocs = "^1.2.2"
+mkdocs-material = {git = "ssh://git@git.20c.com/gh/squidfunk/mkdocs-material-insiders.git", tag="9.0.5-insiders-4.28.1"}
 
 [tool.poetry.dev-dependencies]
 pre-commit = ">=2.13"
