@@ -1,9 +1,11 @@
 # Add Device
 
-From the Overview tab in DeviceCtl, choose the facility to work with from the drop down menu.
-   ![](img/add-device/choosefacility.png)
-Add a Device by clicking the option on the left side of the screen.
-   ![](img/add-device/adddevice.png)
-In the pop up box, enter the Name, Type, Description and click Save.
-   ![](img/add-device/adddevpopup.png)
+From the Overview tab in the header menu, choose the facility to work with from the drop down menu.
+   ![](img/choosefacility.png)
+
+Add a Device by clicking the Add Device button on the right side of the window.
+   ![](img/adddevice.png)
+
+In the modal, enter the Name, Type, Description and click Save.
+   ![](img/adddevpopup.png)
 
