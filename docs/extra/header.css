@@ -67,12 +67,13 @@ header .header-left .logo {
   padding-bottom: 1rem;
 }
 
-header .btn.primary[data-element] {
+header .btn.primary.cta {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
 header .header-label,
+header .cta,
 div[type="button"] {
   font-size: var(--fs-400);
 }
