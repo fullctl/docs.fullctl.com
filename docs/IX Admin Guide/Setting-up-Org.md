@@ -10,7 +10,7 @@ References
 If you create a user to manage your IX, they will need the following read/write permissions for route server configuration and member management: Internet Exchange Member, Routeserver, Routeserver config.
    ![](ixmgr.png)
    
-If you are incorporate DeviceCtl for infrastructure management and statistics, you will also want: Device, Facility, Logical Port, Physical Port, Virtual Port.
+If you are incorporating DeviceCtl for infrastructure management and statistics, you will also want: Device, Facility, Logical Port, Physical Port, Virtual Port.
    ![](devicemgr.png)
    
 Once you have your organization and users setup, click on the ixCtl button under services to proceed to create and configure your IX and services.
