@@ -36,6 +36,10 @@ img {
   width: 4%;
 }
 
+.md-sidebar--secondary > .md-sidebar__scrollwrap{
+  display: none;
+}
+
 .md-sidebar:not(.md-sidebar--secondary),
 .md-sidebar:not(.md-sidebar--secondary) .md-sidebar__inner,
 .md-sidebar:not(.md-sidebar--secondary) .md-sidebar__scrollwrap {
