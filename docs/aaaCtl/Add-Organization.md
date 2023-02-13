@@ -5,3 +5,6 @@ An Organization can be added using the drop-down arrow next to name then clickin
    
 Enter the Organization Name, Slug and click Create. The new Organization will then appear next to the drop-down arrow.
    ![](img/createorgpopup.png)
+   
+The new Organization will then appear next to the drop-down arrow.    
+   ![](img/neworg.png)
