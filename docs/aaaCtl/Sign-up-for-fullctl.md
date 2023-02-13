@@ -21,4 +21,5 @@ You will be directed to the PeeringDB website. Make sure you are logged into the
    ![](img/authorize.png)
 
 You will be redirected to the FullCtl website. When you click on Linked Authentication option on the right side of the screen you will see PeeringDB under Linked Providers.
-   ![](img/authenticate.png)
+
+   ![](img/linked.png)
