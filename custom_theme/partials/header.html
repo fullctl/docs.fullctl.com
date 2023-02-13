@@ -26,123 +26,131 @@
 <!-- Header -->
 <header class="{{ class }}" data-md-component="header">
   <nav
-    class="md-header__inner md-grid"
+    class="md-header__inner md-grid container-fluid"
     aria-label="{{ lang.t('header') }}"
   >
-
-    <!-- Link to home -->
-    <a
-      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-      title="{{ config.site_name | e }}"
-      class="md-header__button md-logo"
-      aria-label="{{ config.site_name }}"
-      data-md-component="logo"
-    >
-      {% include "partials/logo.html" %}
-    </a>
-
-    <!-- Button to open drawer -->
-    <label class="md-header__button md-icon" for="__drawer">
-      {% include ".icons/material/menu" ~ ".svg" %}
-    </label>
-
-    <!-- Header title -->
-    <div class="header-middle">
-      <div>
-        <div type="button">
-          Products & Solutions
-        </div>
-      </div>
-
-      <div>
-        <div>
-          Resources
-        </div>
-      </div>
-
-      <div>
-        <div>
-          About FullCtl
-        </div>
-      </div>
-    </div>
-
-    <!-- Color palette -->
-    {% if not config.theme.palette is mapping %}
-      <form class="md-header__option" data-md-component="palette">
-        {% for option in config.theme.palette %}
-          {% set scheme = option.scheme | d("default", true) %}
-          <input
-            class="md-option"
-            data-md-color-media="{{ option.media }}"
-            data-md-color-scheme="{{ scheme | replace(' ', '-') }}"
-            data-md-color-primary="{{ option.primary | replace(' ', '-') }}"
-            data-md-color-accent="{{ option.accent | replace(' ', '-') }}"
-            {% if option.toggle %}
-              aria-label="{{ option.toggle.name }}"
-            {% else  %}
-              aria-hidden="true"
-            {% endif %}
-            type="radio"
-            name="__palette"
-            id="__palette_{{ loop.index }}"
-          />
-          {% if option.toggle %}
-            <label
-              class="md-header__button md-icon"
-              title="{{ option.toggle.name }}"
-              for="__palette_{{ loop.index0 or loop.length }}"
-              hidden
-            >
-              {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
-            </label>
-          {% endif %}
-        {% endfor %}
-      </form>
-    {% endif %}
-
-    <!-- Site language selector -->
-    {% if config.extra.alternate %}
-      <div class="md-header__option"></form>
-        <div class="md-select">
-          {% set icon = config.theme.icon.alternate or "material/translate" %}
-          <button
-            class="md-header__button md-icon"
-            aria-label="{{ lang.t('select.language') }}"
+    <div class="row h-100">
+      <!-- Button to open drawer -->
+      <label class="md-header__button md-icon col-auto" for="__drawer">
+        {% include ".icons/material/menu" ~ ".svg" %}
+      </label>
+      <div class="header-left col-auto dropdown mobile-hide">
+        <div class="row">
+          <a class="col-auto" 
+            href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+            title="{{ config.site_name | e }}"
+            class="md-header__button md-logo"
+            aria-label="{{ config.site_name }}"
+            data-md-component="logo"
           >
-            {% include ".icons/" ~ icon ~ ".svg" %}
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              {% for alt in config.extra.alternate %}
-                <li class="md-select__item">
-                  <a
-                    href="{{ alt.link | url }}"
-                    hreflang="{{ alt.lang }}"
-                    class="md-select__link"
-                  >
-                    {{ alt.name }}
+            <div class="logo">
+              <img src="{{ config.theme.logo | url }}" alt="fullctl logo">
+            </div>
+          </a>
+          <div class="col-auto">
+            <div class="row h-100">
+              <div class="header-item col-auto dropbtn">
+                <div class="header-label h-100 d-flex align-items-center">
+                  Products and Solutions<span class="icon icon-sm icon-chevron-left"></span>
+                </div>
+                <div class="dropdown-content">
+                  <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/peerctl.html">
+                    <div class="col">
+                      <img class="header-img" src="{{ "extra/assets/peerctl-dark.svg" | url }}"" alt="PeerCtl logo">
+                      <p>
+                        Peering automation and workflow management
+                      </p>
+                    </div>
                   </a>
-                </li>
-              {% endfor %}
-            </ul>
+                  <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/ixctl.html">
+                    <div class="col">
+                      <img class="header-img" src="{{ "extra/assets/ixctl-dark.svg" | url }}" alt="ixCtl logo">
+                      <p>
+                        Internet exchange point operations automation
+                      </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/ix-operations.html">
+                    <div class="col">
+                      <h3>IX Operations</h3>
+                      <p>
+                        Professional Staffing, Fractional Pricing
+                      </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/interconnection-automation.html">
+                    <div class="col">
+                      <h3>Interconnection Automation</h3>
+                      <p>
+                        Custom Built Automation Solutions
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="header-item col-auto dropbtn">
+                <div class="header-label h-100 d-flex align-items-center">
+                  Resources<span class="icon icon-sm icon-chevron-left"></span>
+                </div>
+                <div class="dropdown-content">
+                  <div class="container-fluid px-0">
+                    <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/resource/blog.html">
+                      <div class="col">
+                        <h3>Blog</h3>
+                        <p>
+                          Internetworking Insights
+                        </p>
+                      </div>
+                    </a>
+                    <a class="dropdown-item row" target="_blank" href="https://docs.fullctl.com/">
+                      <div class="col">
+                        <h3>Docs</h3>
+                        <p>
+                          How-Tos and Details
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="header-item col-auto dropbtn">
+                <div class="header-label h-100 d-flex align-items-center">
+                  About<span class="icon icon-sm icon-chevron-left"></span>
+                </div>
+                <div class="dropdown-content">
+                  <div class="container-fluid px-0">
+                    <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/about/our-story.html">
+                      <div class="col">
+                        <h3 class="mb-0">Our Story ›</h3>
+                      </div>
+                    </a>
+                    <a class="dropdown-item row" href="{{ config.theme.main_site | url }}/about/our-team.html">
+                      <div class="col">
+                        <h3 class="mb-0">Our Team ›</h3>
+                      </div>
+                    </a>
+                    <a class="dropdown-item row" href="{{ config.theme.main_site | url}}/about/careers.html">
+                      <div class="col">
+                        <h3 class="mb-0">Career Opportunities ›</h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    {% endif %}
 
-    <div class="header-right">
-      <div>
-        <div type="button">
-          Log In
+      <div class="header-right col-auto ms-auto">
+        <div class="row h-100">
+          <div class="btn col-auto h-75 mt-auto" type="button"><a href="https://account.20c.com" target="_blank">Log In</a></div>
+          <a class="cta btn primary col-auto h-75 mt-auto" href="https://account.20c.com/account/auth/register/?next=/account/">
+            Start Free Trial
+          </a>
         </div>
       </div>
 
-      <div>
-        <div class="request-demo" type="button">
-          Request a Demo
-        </div>
-      </div>
     </div>
   </nav>
 
