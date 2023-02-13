@@ -4,11 +4,16 @@ repo_url: https://github.com/fullctl/docs.fullctl.com/
 
 extra_css:
   - extra/extra.css
+  - extra/header.css
 
 extra_javascript:
-  - extra/extra.js
+  - extra/js/twentyc/twentyc.core.min.js
+  - extra/js/twentyc/twentyc.rest.js
+  - extra/js/app.js
+  - extra/js/extra.js
 
 theme:
+  main_site: https://www.fullctl.com
   favicon: extra/assets/favicon.ico
   name: material
   palette:
@@ -37,6 +42,7 @@ nav:
       - Prioritize Rules: aclCtl/Prioritize-Rules.md
       - Custom Templates: aclCtl/Custom-Templates.md
     - ixCtl:
+      - Verify Exchange: ixctl/Verify-Exchange.md
       - Import an IX: ixctl/Import-an-IX.md
       - Create an IX: ixctl/Create-an-IX.md
       - Add a Member: ixctl/Add-a-Member.md
