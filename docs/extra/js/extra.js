@@ -1,3 +1,4 @@
+// setting sidebar height
 const sidebar = document.querySelector('.md-sidebar__scrollwrap')
 const sidebar_footer = document.querySelector('.sidebar_footer')
 const fixSidebarHeight = new ResizeObserver(() => {
@@ -11,6 +12,7 @@ const fixSidebarHeight = new ResizeObserver(() => {
 sidebar.setAttribute("data-new-height", sidebar.clientHeight);
 fixSidebarHeight.observe(sidebar);
 
+// style image list, dividing text and image into 2 sides
 let list_with_imgs = document.querySelectorAll("ol > li > img");
 const appliedOls = new Set();
 const appliedLis = new Set();
