@@ -212,6 +212,25 @@ nav.path .md-path__list .md-path__item:first-child {
   }
 }
 
+@supports selector(::-webkit-scrollbar) {
+  [dir=ltr] .md-sidebar__inner {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-nav__source {
+    background-color: var(--md-primary-fg-color--dark);
+    color: var(--md-primary-bg-color);
+    display: block;
+    padding: 0 .2rem
+  }
+
+  .md-sidebar:not(.md-sidebar--secondary) {
+    background-color: var(--md-default-bg-color);
+  }
+}
+
 /** sidebar **/
 
 .sidebar_footer {
@@ -322,10 +341,4 @@ ol.text-img-ol>li.text-img-li div.right-container {
 
 .modal .modal-header {
   border-bottom: none;
-}
-
-@supports selector(::-webkit-scrollbar) {
-  [dir=ltr] .md-sidebar__inner {
-    padding-right: 0;
-  }
 }
