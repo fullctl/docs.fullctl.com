@@ -23,6 +23,8 @@ theme:
     text: Archivo
   logo: extra/assets/FullCTL-Logo-LightBG.svg
   custom_dir: custom_theme/
+  features:
+    - navigation.expand
 
 nav:
   - Home: 

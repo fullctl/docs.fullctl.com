@@ -171,7 +171,7 @@ nav.md-nav .md-nav__link {
 
 .md-nav__item {
   --md-accent-fg-color: currentColor;
-  width: max-content;
+  width: 100%;
 }
 
 .md-nav__item .md-nav__link--active {
@@ -209,6 +209,25 @@ nav.path .md-path__list .md-path__item:first-child {
 
   nav.path .md-path__list {
     margin-left: 7.25rem;
+  }
+}
+
+@supports selector(::-webkit-scrollbar) {
+  [dir=ltr] .md-sidebar__inner {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-nav__source {
+    background-color: var(--md-primary-fg-color--dark);
+    color: var(--md-primary-bg-color);
+    display: block;
+    padding: 0 .2rem
+  }
+
+  .md-sidebar:not(.md-sidebar--secondary) {
+    background-color: var(--md-default-bg-color);
   }
 }
 
