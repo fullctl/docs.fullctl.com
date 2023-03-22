@@ -175,22 +175,54 @@
         <input type="text" class="form-control" name="phone_number" placeholder="Phone Number" aria-label="Phone Number">
       </div>
     </form>
+
+    <form data-template="form_contact_us"
+      data-api-action=""
+      data-api-method="POST"
+      class="container-fluid"
+    >
+      <div class="row mb-3">
+        <h3 class="center-text">Contact Us</h3>
+        <p>
+          We love to geek out about interconnection and automation, reach out and let’s chat!
+        </p>
+      </div>
+      <div class="row mb-3" data-api-submit="yes">
+        <input type="text" class="form-control" name="name" placeholder="Full Name" aria-label="Full Name">
+      </div>
+      <div class="row mb-3" data-api-submit="yes">
+        <input type="text" class="form-control" name="company" placeholder="Company Name" aria-label="company">
+      </div>
+      <div class="row mb-3" data-api-submit="yes">
+        <input type="email" class="form-control" name="email" placeholder="Email Address" aria-label="email">
+      </div>
+      <div class="row mb-3" data-api-submit="yes">
+        <input type="tel" class="form-control" name="phone_number" placeholder="Phone Number" aria-label="Phone Number">
+      </div>
+      <div class="row mb-3" data-api-submit="yes">
+        <input type="text" class="form-control" name="message" placeholder="Message" aria-label="Message">
+      </div>
+    </form>
   </div>
+
   <div class="modals">
     <div class="modal" role="dialog" data-component="modal_save">
-      <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
+            <h5 class="modal-title" data-element="title"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
             </button>
           </div>
           <div class="modal-body controls" data-element="body">
           </div>
           <div class="modal-footer" data-element="footer">
-            <button type="button" class="btn secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="button" data-element="button_submit" class="btn-submit submit btn primary">
-              Submit
+            <span class="modal-action-note"></span>
+    
+            <button type="button" data-element="button_submit" class="btn-submit submit btn primary col">
+              <span class="label">Save</span>
             </button>
+    
           </div>
         </div>
       </div>
