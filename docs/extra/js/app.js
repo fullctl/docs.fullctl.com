@@ -12,6 +12,12 @@ fullctl.template = function(name) {
 
 fullctl.application = {}
 
+fullctl.application.send_mail = function send_mail(subject, message="") {
+  window.open("mailto:" + form_email + "?subject="
+      + encodeURIComponent(subject)
+      + "&body=" + encodeURIComponent(message));
+}
+
 fullctl.application.Component = $tc.define(
   "Component",
   {
@@ -110,4 +116,33 @@ $('[data-element="request-demo-btn"]').click(function() {
     new fullctl.application.ModalRequestDemo();
   }
 })
+
+fullctl.application.ModalContactUs = $tc.extend(
+  "ModalContactUs",
+  {
+    ModalContactUs: function () {
+      var modal = this;
+      var form = this.form = new twentyc.rest.Form(
+        fullctl.template("form_contact_us")
+      );
+
+      $(this.form).on("api-write:success", (ev, e, payload, response) => {
+        modal.hide();
+      });
+
+      this.Modal("save", form.element);
+      form.wire_submit(this.$e.button_submit);
+    }
+  },
+  fullctl.application.Modal
+);
+
+$('[data-element="contact-us-btn"]').click(function () {
+  if (fullctl.template("form_contact_us").attr("data-api-base")) {
+    new fullctl.application.ModalContactUs();
+  } else {
+    fullctl.application.send_mail("Contact Us");
+  }
+})
+
 })(jQuery, twentyc.cls);
