@@ -1,6 +1,6 @@
 # Introduction to FullCtl
 
-FullCtl is a network automation and orchestration software suite focused on providing a source of truth for your network and provides a suite of tools to take actions and provide services based on that SoT.
+FullCtl is a network automation and orchestration software suite focused on providing a source of truth (SoT) for your network and provides a suite of tools to take actions and provide services based on that SoT.
 
 In order to provide functionality for a variety of networks, FullCtl is made up of a number of modules. Some of these, like aclCtl, provide functionality to other modules, and some, like ixCtl provide interfaces and automation controllers directly. It should be noted that most modules do not act directly on your infrastructure, instead being communicated with by a variety of agents deployed in your infrastructure. These agents are typically containers providing services like route servers, but can also be proxy connections allowing your systems to securely communicate with FullCtl to obtain and act on information provided by the FullCtl SoT.
 
@@ -10,12 +10,13 @@ FullCtl can take the hassle and complexity out of managing a complex infrastruct
 
 # FullCtl Components
 
-- aaaCtl - manage your users and access control to various components of FullCtl
-- aclCtl - manage custom ACLs for router configuration
-- ixCtl - manage your IXP users, configure your route servers and as112 systems
-PeerCtl - take data directly from PeeringDB, combine it with your policies and generate the complete BGP configuration required to turn up a secure and reliable peering session
-- PrefixCtl - enter your network prefixes and irr information to monitor and manage your networks
-- DeviceCtl - manage your physical infrastructure, assign ports and logical configurations, and maintain a SoT for easy configuration and monitoring
-- custom Ctl - you can integrate FullCtl’s SoT with your existing workflow or custom code through our rich API, or 20c can create custom integrations for your specific needs
+- ixCtl is an automation platform and SoT built for internet exchange operators.
+- PeerCtl is an automation platform, workflow manager, and SoT for interconnection and peering. It is used for managing all BGP sessions including peers and transit providers.
+- PrefixCtl is the FullCtl SoT and monitor for prefix sets needed in BGP routing; used for managing IRR (Internet Routing Registry) and ROA (Route Origin Authorization) information. 
+- DeviceCtl is the FullCtl SoT designed to manage devices and how they interconnect; can be used as a stand alone service, or as an abstraction layer and cache for tieing into third party systems. 
+- pdbCtl is our redundancy abstraction layer for PeeringDB data.
+- aaaCtl is our platform for managing your users and accessing control to various components of FullCtl.
+- aclCtl is the FullCtl SoT for access control list (ACL) and network policy information. 
+- custom Ctl - you can integrate FullCtl’s SoT with your existing workflow or custom code through our rich API, or 20c can create custom integrations for your specific needs.
 
 Contact us: <a href="mailto: hello@fullctl.com" target="_blank">hello@fullctl.com</a>
