@@ -137,7 +137,7 @@ fullctl.application.ContactForm = twentyc.cls.extend(
         }
       });
 
-      data["message"] = {"content": message};
+      data["message"] = message;
       data["type"] = this.type;
       if (this.extra_info) {
         Object.keys(this.extra_info).forEach((key) => {
