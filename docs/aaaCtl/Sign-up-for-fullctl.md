@@ -7,7 +7,7 @@ To register, enter a user name, email, password, first name and last name. Indic
    ![](img/signup.png)
 
 You will be prompted to Create an Organization. Enter the Organization name and slug. Click Create. This can serve as your personal Organization or can be your business/work-related Organization. You can be affiliated with multiple Organizations. If you want to be affiliated with an Organization that already exists on FullCtl, you must be invited by the Admin of that Organization. 
-   ![](img/createorgmodal.png)
+   ![](img/createorgmodal.PNG)
 
 You will be prompted to confirm your email address.
    ![](img/emailconf.png)
