@@ -1,7 +1,7 @@
 site_name: docs.fullctl.com
 site_url: https://docs.fullctl.com
 repo_url: https://github.com/fullctl/docs.fullctl.com/
-form_email: "hello@fullctl.com"
+form_url: "https://account.fullctl.io/api/account/contact"
 
 extra_css:
   - extra/extra.css
