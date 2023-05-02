@@ -7,7 +7,7 @@ To register, enter a user name, email, password, first name and last name. Indic
    ![](img/signup.png)
 
 You will be prompted to Create an Organization. Enter the Organization name and slug. Click Create. This can serve as your personal Organization or can be your business/work-related Organization. You can be affiliated with multiple Organizations. If you want to be affiliated with an Organization that already exists on FullCtl, you must be invited by the Admin of that Organization. 
-   ![](img/createorgmodal.PNG)
+   ![](img/createorgmodal.png)
 
 You will be prompted to confirm your email address.
    ![](img/emailconf.png)
@@ -18,10 +18,10 @@ A confirmation message will appear on the website.
    ![](img/confirm.png)
 
 Click on the Linked Authentication option on the right side of the screen. Under available providers, choose PeeringDB and click Add. Note: Please contact us for information on how to set up Okta backed authentication.
-   ![](img/authenticate.PNG)
+   ![](img/authenticate.png)
 
 You will be directed to the PeeringDB website. Make sure you are logged into the site. Click on Authorize.
    ![](img/authorize.png)
 
 You will be redirected to the FullCtl website. When you click on Linked Authentication option on the right side of the screen you will see PeeringDB under Linked Providers.
-   ![](img/linked.PNG)
+   ![](img/linked.png)
