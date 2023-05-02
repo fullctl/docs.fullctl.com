@@ -14,7 +14,7 @@ FullCtl can take the hassle and complexity out of managing a complex infrastruct
 - PeerCtl is an automation platform, workflow manager, and SoT for interconnection and peering. It is used for managing all BGP sessions including peers and transit providers.
 - PrefixCtl is the FullCtl SoT and monitor for prefix sets needed in BGP routing; used for managing IRR (Internet Routing Registry) and ROA (Route Origin Authorization) information. 
 - DeviceCtl is the FullCtl SoT designed to manage devices and how they interconnect; can be used as a stand alone service, or as an abstraction layer and cache for tieing into third party systems. 
-- pdbCtl is our abstraction layer for PeeringDB data, with support bidirectional sync.
+- pdbCtl is our abstraction layer for PeeringDB data, with support for bidirectional sync.
 - aaaCtl is our platform for managing your users and accessing control to various components of FullCtl.
 - aclCtl is the FullCtl SoT for access control list (ACL) and network policy information. 
 - custom Ctl - you can integrate FullCtl’s SoT with your existing workflow or custom code through our rich API, or 20c can create custom integrations for your specific needs.
