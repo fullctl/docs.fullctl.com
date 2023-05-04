@@ -21,7 +21,7 @@ ixCtl takes data directly from PeeringDB and combines it with industry best prac
 
 **pdbCtl**
 
-pdbCtl is our redundancy abstraction layer for PeeringDB data.
+pdbCtl is our redundancy abstraction layer for PeeringDB data, with support for bidirectional sync.
 
 **PeerCtl**
 
