@@ -13,7 +13,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
       - name: Install virtualenv from poetry
-        uses: 20c/workflows/poetry@v1
+        uses: 20c/workflows/poetry@66c0cbc51a3b79df4a03e0737e28ecc7646e4b75
       - name: deploy mkdocs gh-pages site
         run: |
           poetry run mkdocs gh-deploy --force
