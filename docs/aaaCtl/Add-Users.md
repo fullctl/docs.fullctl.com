@@ -3,7 +3,7 @@
 Choose the Organization you want to add users to. Your list of Organizations can be found using the drop-down arrow next to name.
    ![](img/addorg.png)
 
-Click on + Invite Users to Your Organization. 
+Click on + Invite Users to Your Organization from the options below Services.
    ![](img/invite.png)
    
 In the pop-up box, enter the email address of the person you are inviting. Click on Send Invite. 
