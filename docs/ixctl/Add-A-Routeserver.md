@@ -11,3 +11,6 @@ Next, click on the Add Route Server button.
 
 Enter the route server information and click Save.
    ![](img/createrouteserver.png)
+
+Using the options hover, click on Generate to update the list after new prefixes are added.
+   ![](img/generate.png)
