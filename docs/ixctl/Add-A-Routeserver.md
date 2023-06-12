@@ -1,6 +1,9 @@
 # Add a Route Server
 
-Select the Exchange to which a route server will be added from the header menu. 
+Click on the Route Servers tab in the header menu. 
+   ![](img/routeservers.png)
+   
+Click on the Route Servers tab in the header menu. 
    ![](img/addmember.png)
    
 Next, click on the Add Route Server button.  
