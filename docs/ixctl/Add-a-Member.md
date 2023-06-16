@@ -2,6 +2,7 @@
 
 Prefix lists and AS-SETs are populated from the IRRs. The AS-SET names come from PeeringDB by default. These can be overridden in ixCtl but it is best to update them in PeeringDB. 
 Before adding a member to ixCtl, ensure the member has:
+
 - Registered their prefix with radb (fee based), ARIN (if lacking legacy space) or altdb.
 - Entered/updated their AS-Set in PeeringDB.
 
