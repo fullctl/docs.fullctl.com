@@ -8,4 +8,4 @@ In the modal, enter the New Exchange name and click Continue. An empty IX space 
    
 The name of the new exchange will appear in the header menu.
    ![](img/addmember.png)
-In the (new) empty IX space, a Route Server or Member can be added. 
+In the (new) empty IX space, a Member can be added. 
