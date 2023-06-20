@@ -46,9 +46,10 @@ nav:
       - Prioritize Rules: aclCtl/Prioritize-Rules.md
       - Custom Templates: aclCtl/Custom-Templates.md
     - ixCtl:
-      - Verify Exchange: ixctl/Verify-Exchange.md
+      - Sign Up: ixctl/Sign-Up.md
       - Import an IX: ixctl/Import-an-IX.md
       - Create an IX: ixctl/Create-an-IX.md
+      - Verify Exchange: ixctl/Verify-Exchange.md
       - Add a Member: ixctl/Add-a-Member.md
       - Share the Member List: ixctl/Share-the-member-list.md
       - Add a Route Server: ixctl/Add-A-Routeserver.md
