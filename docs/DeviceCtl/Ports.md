@@ -1,4 +1,10 @@
 # Ports
 
-Clicking on the Ports tab in the header menu will provide a view of the port infrastructure. The logical, physical and virtual ports can be managed here. _Note: this is a work in progress._
-   ![](img/ports.png)
+Clicking on the Ports tab in the header menu provides a view of the port infrastructure. Choose the Facility and Device to view from the drop down options. 
+   ![](img/portstab.png)
+   
+Device details can be viewed using the tabs under Device Details. Clicking on peerCtl takes you to the related peer session. 
+   ![](img/devicedetails.png)
+   
+ The logical, physical and virtual ports can be managed on this page as well.
+    ![](img/ports.png)

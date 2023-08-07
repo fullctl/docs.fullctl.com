@@ -46,9 +46,10 @@ nav:
       - Prioritize Rules: aclCtl/Prioritize-Rules.md
       - Custom Templates: aclCtl/Custom-Templates.md
     - ixCtl:
-      - Verify Exchange: ixctl/Verify-Exchange.md
+      - Sign Up: ixctl/Sign-Up.md
       - Import an IX: ixctl/Import-an-IX.md
       - Create an IX: ixctl/Create-an-IX.md
+      - Verify Exchange: ixctl/Verify-Exchange.md
       - Add a Member: ixctl/Add-a-Member.md
       - Share the Member List: ixctl/Share-the-member-list.md
       - Add a Route Server: ixctl/Add-A-Routeserver.md
@@ -70,15 +71,16 @@ nav:
     - PrefixCtl:
       - Definitions: prefixctl/PrefixCtl-Definitions.md
       - Add Prefix Set: prefixctl/Add-Prefix-Set.md
+      - Settings: prefixctl/Settings.md
+      - Check Reputation: prefixctl/Check-Reputation.md
+      - Add Monitor: prefixctl/Add-Monitor.md
       - Add ASN: prefixctl/Add-ASN.md
       - API: prefixctl/API.md
-      - Settings: prefixctl/Settings.md
-      - Add Monitor: prefixctl/Add-Monitor.md
-      - Check Reputation: prefixctl/Check-Reputation.md
     - DeviceCtl:
       - Definitions: DeviceCtl/Definitions.md
       - Add Facility: DeviceCtl/Add-Facility.md
       - Add Device: DeviceCtl/Add-Device.md
+      - Dashboard: DeviceCtl/Dashboard.md
       - Ports: DeviceCtl/Ports.md
   - IX Administrators Guide:
     - Overview: IX Admin Guide/Overview.md
