@@ -56,7 +56,8 @@ nav:
       - Delete Exchange: ixctl/Delete-Exchange.md
     - PeerCtl:
       - Definitions: PeerCtl/PeerCtl-Definitions.md
-      - Summary: PeerCtl/Summary.md
+      - ASN Permissions: PeerCtl/ASN-Permissions.md
+      - Summary View: PeerCtl/Summary.md
       - Add Peering Session: PeerCtl/Add-Peering-Session.md
       - Peering Settings: PeerCtl/Peering-Settings.md
       - Add/Remove Network Connection: PeerCtl/AddRemove-Network-Connection.md
