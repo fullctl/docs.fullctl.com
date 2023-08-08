@@ -68,7 +68,9 @@ nav:
       - Request Peering Option 2: PeerCtl/Request-Peering-2.md
       - Custom Email Templates: PeerCtl/Custom-Email-Templates.md
       - Peering Process: PeerCtl/Peering-Process.md
+      - Peering Requests Summary: PeerCtl/Peering-Requests-Summary.md
       - Device Configuration: PeerCtl/Device-Configuration.md
+      - ASN Tab: PeerCtl/ASN-Tab.md
     - PrefixCtl:
       - Definitions: prefixctl/PrefixCtl-Definitions.md
       - Add Prefix Set: prefixctl/Add-Prefix-Set.md
