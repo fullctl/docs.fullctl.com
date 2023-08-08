@@ -16,7 +16,7 @@ The newly added Template will appear in the Templates list. It can be edited or 
    ![](img/sampletemplate.png)
 
 It will also appear in the Device Config popup box. To view, click on Show config on the Peering page. 
-   ![](img/showconfig2.png)
+   ![](img/showconfig2a.png)
 
 The new Template will appear in the popup box drop down menu
    ![](img/showconfigpopup.png)
