@@ -15,8 +15,8 @@ Add a new Template by entering a Name, choosing the Type from the drop-down menu
 The newly added Template will appear in the Templates list. It can be edited or deleted from here.
    ![](img/sampletemplate.png)
 
-It will also appear in the Device Config popup box. To view, click on Show config. 
-   ![](img/showconfig2.png)
+It will also appear in the Device Config popup box. To view, click on Show config on the Peering page. 
+   ![](img/showconfig2a.png)
 
 The new Template will appear in the popup box drop down menu
    ![](img/showconfigpopup.png)
