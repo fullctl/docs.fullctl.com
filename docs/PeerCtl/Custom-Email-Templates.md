@@ -1,12 +1,9 @@
 # Custom Email Templates
 
-To create custom emails, close the Request Peering popup box and click on the Templates tab at the top of the window. 
-   ![](img/templates.png)
+To create custom emails, click on the Templates tab at the top of the window. Then make sure to be on the Email templates tab.
+   ![](img/emailtemplatestab.png)
 
-Click on Email Templates at the top of the window.
-   ![](img/emailtemplates.png)
-
-Enter a name for the custom Template. Choose the Type of Template to be customized. Each type of template is based on one of the three steps in the Request Peering process. The default text will appear in the Body box and can be edited. Changes can be viewed in the Preview box below the Edit box. Edits are saved using the Save link at the bottom of the window. Custom email Templates will appear in the Request Peering pop-up box.
+Enter a name for the custom Template. Choose the Type of Template to be customized. Each type of template is based on one of the three steps in the Request Peering process. 
    ![](img/customemail.png)
    
 The default text will appear in the Body box and can be edited. Changes can be viewed in the Preview box below the Edit box. Edits are saved using the Save link at the bottom of the window. 

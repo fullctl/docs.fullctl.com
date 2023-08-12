@@ -9,4 +9,5 @@ The configuration specifications for the chosen Template will appear in the popu
 
 
 The information in the device configuration is based on the chosen Policy, Device Type (set in the Port settings popup) and the Template (drop down below Exchange/Port). 
+   ![](img/deviceconfig.png)
    ![](img/typetemplate.png)
