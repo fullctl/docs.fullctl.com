@@ -9,7 +9,7 @@ Click on the Peering tab in the header menu. Then, click on Request Peering.
 
 
 Note: When a peering request is made it includes all the shared exchange points. The shared exchange points can be viewed by clicking the arrow next to Shared Exchange Points.
-   ![](img/sharedpts.png)
+   ![](img/otherexpts.png)
 
 In the popup box, on the top left is the network name, ASN and email contact.
    ![](img/popleft.png)
