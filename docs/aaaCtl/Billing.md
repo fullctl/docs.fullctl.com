@@ -10,7 +10,7 @@ Click the Add button to add a new billing contact.
    ![](img/addbilling.png)
 
 Enter your name, email, address and credit card information. Read the [Terms of Service](https://www.fullctl.com/legal#section=collapseToS) and check the box. Click Continue.
-Note: If a second billing contact and credit card is added for your Organization, the system will automatically charge the newest credit card added. If you would like a different card to be charged please contact support@fullctl.com.
+Note: If a second billing contact and credit card is added for your Organization, the system will automatically charge the newest credit card added. If you would like a different card to be charged please contact <support@fullctl.com>.
    ![](img/ccpage.png)
 
 Entering your billing information does not automatically charge your credit card. Charges are applied when FullCtl Administration turns on your paid service subscription. Once your subscription is turned on you will be charged monthly. Your current subscriptions and monthly costs appear at the bottom of the services list.
