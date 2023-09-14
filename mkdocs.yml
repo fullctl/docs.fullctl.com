@@ -40,6 +40,7 @@ nav:
       - Add Organization: aaaCtl/Add-Organization.md
       - Add Users: aaaCtl/Add-Users.md
       - User Privileges: aaaCtl/User-Privileges.md
+      - Billing: aaaCtl/Billing.md
     - aclCtl:
       - Access Control List: aclCtl/Access-Control-List.md
       - Add a Rule: aclCtl/Add-a-Rule.md
