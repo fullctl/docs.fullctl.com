@@ -24,4 +24,4 @@ Cost for ixCtl services:
 <li>76+ members = $500/month</li>
 </ul>
 
-If your IX meets the criteria for paid services, credit card information is required before route server migration begins. Billing doesn’t begin until the day of your second route server migration. 
+If your IX meets the criteria for paid services, credit card information is required before route server migration begins. Billing doesn’t begin until the end of your trial period. 
