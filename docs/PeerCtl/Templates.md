@@ -26,7 +26,7 @@ The configuration specifications for the new Template will appear in the popup b
 Note: The templates available for configuration generation are dictated by the device type specified in deviceCtl. Currently the default device type in deviceCtl is set to junos.
 
 Note: The following variables autofill into the email based on your network settings. These variables should not be edited. 
-Example: https://github.com/20c/netom/blob/master/src/netom/templates/netom0/bird1-0/bgp/neighbors.j2
+Example: <a href="https://github.com/20c/netom/blob/main/src/netom/templates/netom0/bird1-0/bgp/neighbors.j2" target="_blank">https://github.com/20c/netom/blob/main/src/netom/templates/netom0/bird1-0/bgp/neighbors.j2</a>
 
 - `device.type` - device type
 - `peer_groups` - a `dictionary` of peers with group name as key
