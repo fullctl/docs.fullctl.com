@@ -15,7 +15,7 @@
 ## Details
 The free trial of ixCtl allows Users to enter IX and route server information and view how ixCtl functions. When you determine ixCtl is a good fit and meets your needs, contact us at <support@fullctl.com>. We will send you a form to fill out for each IX that will be onboarded. 
 
-FullCtl staff will work with you to develop a plan for migrating from your current system to ixCtl. This process involves working with our Team to prepare for and schedule RS1 and RS2 migrations. We schedule maintenance windows that fit your schedule and guide you through the transition process. 
+FullCtl staff will work with you to develop a plan for migrating from your current system to ixCtl. This process involves working with our Team to prepare for and schedule the route server migrations. We schedule maintenance windows that fit your schedule and guide you through the transition process. 
 
 Cost for ixCtl services:
 <ul>
