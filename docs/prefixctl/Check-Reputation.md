@@ -14,7 +14,7 @@ The Reputation status will appear as either “Issues” to indicate the check f
    ![](img/issuesok.png)
 
 If the message “some lookups had failures” appears it means one of the sources failed during the generation process. Any failing source will invalidate the entire report. To remedy this situation, click on "Sources" to find out which one failed. Removing the identified IP from the prefix set will stop the error generation. 
-   ![](img/failures.png)
+   ![](img/failuresources.png)
 
 Click on View report to view the IPv4 Address Report. Note: Users must request and be granted access to use this feature.
    ![](img/viewreport.png)
