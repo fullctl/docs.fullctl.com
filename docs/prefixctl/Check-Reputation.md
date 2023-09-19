@@ -13,6 +13,8 @@ To update the reputation check, click Refresh. This may take a few moments to pr
 The Reputation status will appear as either “Issues” to indicate the check found a problem with one or more of the prefix sets or “Ok” to indicate there are no problems with the prefix sets. Click the arrow next to Show / Edit / Add Prefixes to expand the list. The specific prefix with issues will appear in the list view.
    ![](img/issuesok.png)
 
+If the message “some lookups had failures” appears it means one of the sources failed during the generation process. Any failing source will invalidate the entire report. To remedy this situation, click on "Sources" to find out which one failed. Removing the identified IP from the prefix set will stop the error generation. 
+   ![](img/failuresources.png)
 
 Click on View report to view the IPv4 Address Report. Note: Users must request and be granted access to use this feature.
    ![](img/viewreport.png)
