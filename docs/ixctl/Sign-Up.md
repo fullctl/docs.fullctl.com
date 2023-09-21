@@ -18,10 +18,9 @@ The free trial of ixCtl allows Users to enter IX and route server information an
 FullCtl staff will work with you to develop a plan for migrating from your current system to ixCtl. This process involves working with our Team to prepare for and schedule the route server migrations. We schedule maintenance windows that fit your schedule and guide you through the transition process. 
 
 Cost for ixCtl services:
-<ul>
-<li>Up to 35 members = free</li>
-<li>36-75 members = $200/month</li>
-<li>76+ members = $500/month</li>
-</ul>
+
+- Up to 35 members = free
+- 36-75 members = $200/month
+- 76+ members = $500/month
 
 If your IX meets the criteria for paid services, credit card information is required before route server migration begins. Billing doesn’t begin until the end of your trial period. 
