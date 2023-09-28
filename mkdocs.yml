@@ -53,8 +53,10 @@ nav:
       - Add a Member: ixctl/Add-a-Member.md
       - Share the Member List: ixctl/Share-the-member-list.md
       - Add a Route Server: ixctl/Add-A-Routeserver.md
+      - Edit a Route Server: ixctl/Edit-A-Routeserver.md
       - Delete Exchange: ixctl/Delete-Exchange.md
       - Verify Exchange: ixctl/Verify-Exchange.md
+      - Traffic: ixctl/Traffic.md
     - PeerCtl:
       - Definitions: PeerCtl/PeerCtl-Definitions.md
       - ASN Permissions: PeerCtl/ASN-Permissions.md
