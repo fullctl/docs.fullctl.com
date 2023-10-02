@@ -88,6 +88,9 @@ nav:
       - Add Device: DeviceCtl/Add-Device.md
       - Dashboard: DeviceCtl/Dashboard.md
       - Ports: DeviceCtl/Ports.md
+    - AuditCtl:
+      - Overview: AuditCtl/Overview.md
+      - Event Listings: AuditCtl/Event-Listings.md
   - IX Administrators Guide:
     - Overview: IX Admin Guide/Overview.md
     - Requirements: IX Admin Guide/Prereq-Req.md
