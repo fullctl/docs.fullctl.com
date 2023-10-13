@@ -8,7 +8,7 @@
 5. Request [verification](https://docs.fullctl.com/ixctl/Verify-Exchange/) from FullCtl Admin.
 6. Enter your [members](https://docs.fullctl.com/ixctl/Add-a-Member/) / [route server](https://docs.fullctl.com/ixctl/Add-A-Routeserver/) information.
 7. Work with FullCtl Admin to onboard / verify information.
-8. Request FullCtl Admin identify ixCtl as your source of truth.
+8. Request FullCtl Admin identify ixCtl as your [Source of Truth](https://docs.fullctl.com/ixctl/Source-of-Truth/).
 
 ## Details
 The trial of ixCtl allows Users to enter IX and route server information and view how ixCtl functions. When you determine ixCtl is a good fit and meets your needs, contact us at <support@fullctl.com>. We will send you a form to fill out for each IX that will be onboarded. 
