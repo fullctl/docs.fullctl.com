@@ -1,14 +1,14 @@
 # Sign Up
 
-1. [Create your personal account on FullCtl.](https://docs.fullctl.com/aaaCtl/Sign-up-for-fullctl/)
-2. [Add your Organization](https://docs.fullctl.com/aaaCtl/Add-Organization/) to the site or request FullCtl Admin create it for you.
-3. [Invite other users](https://docs.fullctl.com/aaaCtl/Add-Users/) to your Organization if desired.
-4. [Create](https://docs.fullctl.com/ixctl/Create-an-IX/) or [Import](https://docs.fullctl.com/ixctl/Import-an-IX/) your exchange. Note: Each trial or billed subscription is
+1. [Create your personal account on FullCtl.](.../aaaCtl/Sign-up-for-fullctl/)
+2. [Add your Organization](.../aaaCtl/Add-Organization/) to the site or request FullCtl Admin create it for you.
+3. [Invite other users](.../aaaCtl/Add-Users/) to your Organization if desired.
+4. [Create](.../ixctl/Create-an-IX/) or [Import](.../ixctl/Import-an-IX/) your exchange. Note: Each trial or billed subscription is
    applied per exchange (not per Organization).
-5. Request [verification](https://docs.fullctl.com/ixctl/Verify-Exchange/) from FullCtl Admin.
-6. Enter your [members](https://docs.fullctl.com/ixctl/Add-a-Member/) / [route server](https://docs.fullctl.com/ixctl/Add-A-Routeserver/) information.
+5. Request [verification](.../ixctl/Verify-Exchange/) from FullCtl Admin.
+6. Enter your [members](.../ixctl/Add-a-Member/) / [route server](.../ixctl/Add-A-Routeserver/) information.
 7. Work with FullCtl Admin to onboard / verify information.
-8. Request FullCtl Admin identify ixCtl as your [Source of Truth](https://docs.fullctl.com/ixctl/Source-of-Truth/).
+8. Request FullCtl Admin identify ixCtl as your [Source of Truth](.../ixctl/Source-of-Truth/).
 
 ## Details
 The trial of ixCtl allows Users to enter IX and route server information and view how ixCtl functions. When you determine ixCtl is a good fit and meets your needs, contact us at <support@fullctl.com>. We will send you a form to fill out for each IX that will be onboarded. 
