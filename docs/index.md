@@ -20,4 +20,7 @@ FullCtl can take the hassle and complexity out of managing a complex infrastruct
 - aclCtl is the FullCtl SoT for access control list (ACL) and network policy information. 
 - custom Ctl - you can integrate FullCtl’s SoT with your existing workflow or custom code through our rich API, or 20c can create custom integrations for your specific needs.
 
+# FullCtl Ecosystem
+![](img/fullctlecosystem.png)
+
 Contact us: <a href="mailto: hello@fullctl.com" target="_blank">hello@fullctl.com</a>
