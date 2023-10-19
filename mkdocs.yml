@@ -28,6 +28,11 @@ theme:
   features:
     - navigation.expand
 
+extra:
+  analytics:
+    provider: google
+    property: G-YW8Y29B411
+
 nav:
   - Home: 
     - Home: index.md
