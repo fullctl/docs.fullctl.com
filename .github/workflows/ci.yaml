@@ -15,5 +15,5 @@ jobs:
       - name: Push to cloudflare-pages branch
         run: |
           git fetch --unshallow
-          git checkout -B cloudflare-pages && git push --set-upstream origin cloudflare-pages && git push --force
+          git checkout -B cloudflare-pages && git push --force
 
