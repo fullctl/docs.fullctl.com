@@ -1,6 +1,7 @@
 # Add ASN
 
-Organize individual ASNs into sets by clicking on the Add ASN Set button. 
+Organize individual ASNs into sets by clicking on the Add ASN Set button. *Note: this feature has been temporarily disabled.*
+
 ![](img/addasn.png)
 
 

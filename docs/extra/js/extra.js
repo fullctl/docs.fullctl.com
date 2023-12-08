@@ -13,7 +13,7 @@ sidebar.setAttribute("data-new-height", sidebar.clientHeight);
 fixSidebarHeight.observe(sidebar);
 
 // style image list, dividing text and image into 2 sides
-let list_with_imgs = document.querySelectorAll("ol > li > img");
+let list_with_imgs = document.querySelectorAll("ol.text-img-ol > li > img");
 const appliedOls = new Set();
 const appliedLis = new Set();
 list_with_imgs.forEach((e) => {
@@ -21,7 +21,6 @@ list_with_imgs.forEach((e) => {
   let olElement = liElement.parentElement;
 
   if (!appliedOls.has(olElement)) {
-    olElement.classList.add("text-img-ol");
     appliedOls.add(olElement);
   }
 

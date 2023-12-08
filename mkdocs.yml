@@ -28,6 +28,11 @@ theme:
   features:
     - navigation.expand
 
+extra:
+  analytics:
+    provider: google
+    property: G-YW8Y29B411
+
 nav:
   - Home: 
     - Home: index.md
@@ -40,22 +45,28 @@ nav:
       - Add Organization: aaaCtl/Add-Organization.md
       - Add Users: aaaCtl/Add-Users.md
       - User Privileges: aaaCtl/User-Privileges.md
+      - Billing: aaaCtl/Billing.md
     - aclCtl:
       - Access Control List: aclCtl/Access-Control-List.md
       - Add a Rule: aclCtl/Add-a-Rule.md
       - Prioritize Rules: aclCtl/Prioritize-Rules.md
       - Custom Templates: aclCtl/Custom-Templates.md
     - ixCtl:
-      - Verify Exchange: ixctl/Verify-Exchange.md
+      - Sign Up: ixctl/Sign-Up.md
       - Import an IX: ixctl/Import-an-IX.md
       - Create an IX: ixctl/Create-an-IX.md
+      - Verify Exchange: ixctl/Verify-Exchange.md
       - Add a Member: ixctl/Add-a-Member.md
       - Share the Member List: ixctl/Share-the-member-list.md
       - Add a Route Server: ixctl/Add-A-Routeserver.md
+      - Edit a Route Server: ixctl/Edit-A-Routeserver.md
       - Delete Exchange: ixctl/Delete-Exchange.md
+      - Source of Truth: ixctl/Source-of-Truth.md
+      - Traffic: ixctl/Traffic.md
     - PeerCtl:
       - Definitions: PeerCtl/PeerCtl-Definitions.md
-      - Summary: PeerCtl/Summary.md
+      - ASN Permissions: PeerCtl/ASN-Permissions.md
+      - Summary View: PeerCtl/Summary.md
       - Add Peering Session: PeerCtl/Add-Peering-Session.md
       - Peering Settings: PeerCtl/Peering-Settings.md
       - Add/Remove Network Connection: PeerCtl/AddRemove-Network-Connection.md
@@ -66,20 +77,26 @@ nav:
       - Request Peering Option 2: PeerCtl/Request-Peering-2.md
       - Custom Email Templates: PeerCtl/Custom-Email-Templates.md
       - Peering Process: PeerCtl/Peering-Process.md
+      - Peering Requests Summary: PeerCtl/Peering-Requests-Summary.md
       - Device Configuration: PeerCtl/Device-Configuration.md
+      - ASN Tab: PeerCtl/ASN-Tab.md
     - PrefixCtl:
       - Definitions: prefixctl/PrefixCtl-Definitions.md
       - Add Prefix Set: prefixctl/Add-Prefix-Set.md
+      - Settings: prefixctl/Settings.md
+      - Check Reputation: prefixctl/Check-Reputation.md
+      - Add Monitor: prefixctl/Add-Monitor.md
       - Add ASN: prefixctl/Add-ASN.md
       - API: prefixctl/API.md
-      - Settings: prefixctl/Settings.md
-      - Add Monitor: prefixctl/Add-Monitor.md
-      - Check Reputation: prefixctl/Check-Reputation.md
     - DeviceCtl:
       - Definitions: DeviceCtl/Definitions.md
       - Add Facility: DeviceCtl/Add-Facility.md
       - Add Device: DeviceCtl/Add-Device.md
+      - Dashboard: DeviceCtl/Dashboard.md
       - Ports: DeviceCtl/Ports.md
+    - AuditCtl:
+      - Overview: AuditCtl/Overview.md
+      - Event Listings: AuditCtl/Event-Listings.md
   - IX Administrators Guide:
     - Overview: IX Admin Guide/Overview.md
     - Requirements: IX Admin Guide/Prereq-Req.md

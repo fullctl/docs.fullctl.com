@@ -202,6 +202,10 @@ nav.path .md-path__list .md-path__item:first-child {
   font-weight: bold;
 }
 
+nav.path .md-path__item:not(:first-child) {
+  align-items: center;
+}
+
 @media screen and (min-width: 76.25em) {
   header.md-header {
     box-shadow: none;
