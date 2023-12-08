@@ -20,5 +20,5 @@ jobs:
         run: |
           git fetch --unshallow
           git status
-          git checkout cloudflare-pages && git reset --hard '${{ steps.extract_branch.outputs.branch }}' && git push
+          git checkout -b cloudflare-pages && git push
 
