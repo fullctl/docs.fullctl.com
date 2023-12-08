@@ -20,5 +20,5 @@ jobs:
         run: |
           git fetch --unshallow
           git status
-          git checkout -b cloudflare-pages && git push
+          git checkout -b cloudflare-pages && git push --set-upstream origin cloudflare-pages && git push --force
 
