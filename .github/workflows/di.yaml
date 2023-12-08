@@ -18,5 +18,6 @@ jobs:
         id: extract_branch
       - name: Install dependencies
         run: |
+          git fetch --unshallow
           git checkout cloudflare-pages && git reset --hard ${{ steps.extract_branch.outputs.branch }} && git push
 
