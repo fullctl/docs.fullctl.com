@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pipenv
+          python -m pip install --upgrade pipenv
           pipenv install
       - name: deploy mkdocs gh-pages site
         run: |
