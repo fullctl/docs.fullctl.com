@@ -16,12 +16,3 @@ Support@fullctl.com will send you an email. Go to your email and click on the co
 
 A confirmation message will appear on the website. 
    ![](img/confirm.png)
-
-Click on the Linked Authentication option on the right side of the screen. Under available providers, choose PeeringDB and click Add. Note: Please contact us for information on how to set up Okta backed authentication.
-   ![](img/authenticate.png)
-
-You will be directed to the PeeringDB website. Make sure you are logged into the site. Click on Authorize.
-   ![](img/authorize.png)
-
-You will be redirected to the FullCtl website. When you click on Linked Authentication option on the right side of the screen you will see PeeringDB under Linked Providers.
-   ![](img/linked.png)
