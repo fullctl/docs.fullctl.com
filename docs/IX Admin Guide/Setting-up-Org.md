@@ -3,9 +3,10 @@
 If you do not already have users and organizations in FullCtl, the first thing you need to do is sign in and create an organization. While it’s possible to create an IX without an organization, it’s recommended to use organizations to organize things. Organizations also allow easy segmentation of responsibilities if you have more than one or different people responsible for different IXs, etc. Note that you (and other members of your organization) can use our OAuth support to login with an existing google or PeeringDB account. If you have an existing OAuth authentication infrastructure, you can contact 20c for help integrating it with FullCtl.
 
 References
-- [Create Your Login](https://docs.fullctl.com/aaaCtl/Sign-up-for-account/)
-- [Create an Organization](https://docs.fullctl.com/aaaCtl/Add-Organization/)
-- [Adding Users](https://docs.fullctl.com/aaaCtl/Add-Users/)
+
+- [Create Your Login](../aaaCtl/Sign-up-for-fullctl.md)
+- [Create an Organization](../aaaCtl/Add-Organization.md)
+- [Adding Users](../aaaCtl/Add-Users.md)
 
 If you create a user to manage your IX, they will need the following read/write permissions for route server configuration and member management: Internet Exchange Member, Routeserver, Routeserver config.
    ![](ixmgr.png)
@@ -18,11 +19,11 @@ Once you have your organization and users setup, click on the ixCtl button under
 
 To populate your IX with its members, you can either import the IX and its current PeeringDB member list or create a new IX and enter members from scratch. It is recommended to use the import method for initial setup, unless you’re starting a new IX in which case you can enter your initial members by hand and then export them to PeeringDB via IX-F export.
 
-[Import an IX](https://docs.fullctl.com/ixctl/Import-an-IX/)
+[Import an IX](../ixctl/Import-an-IX.md)
 
-[Create a new IX](https://docs.fullctl.com/ixctl/Create-an-IX/)
+[Create a new IX](../ixctl/Create-an-IX.md)
 
-Either way you create your IX, you can add new members, edit existing member information, or remove members from ixCtl. See [Add a Member](https://docs.fullctl.com/ixctl/Add-a-Member/) to add a new member or use the edit icon (pencil) to edit an existing member. The trashcan icon will allow you to delete a member. Be aware that once you have an existing IX, you can not re-import from peeringDB without deleting the entire IX and reimporting. [Setting up IX-F export](https://docs.fullctl.com/ixctl/Share-the-member-list/) is a great way to keep peeringDB in sync and up to date with your local SoT.
+Either way you create your IX, you can add new members, edit existing member information, or remove members from ixCtl. See [Add a Member](../ixctl/Add-a-Member.md) to add a new member or use the edit icon (pencil) to edit an existing member. The trashcan icon will allow you to delete a member. Be aware that once you have an existing IX, you can not re-import from peeringDB without deleting the entire IX and reimporting. [Setting up IX-F export](../ixctl/Share-the-member-list.md) is a great way to keep peeringDB in sync and up to date with your local SoT.
 
 Once you have your IX created and some members listed, you can create one or more route servers to facilitate multilateral peering. Follow these steps to create your route server(s). You will need to assign IP addresses to the route servers at this time.
 
