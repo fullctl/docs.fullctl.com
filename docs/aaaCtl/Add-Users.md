@@ -1,7 +1,7 @@
 # Add Users
 
 Choose the Organization you want to add users to. Your list of Organizations can be found using the drop-down arrow next to name.
-   ![](img/addorg.png)
+   ![](img/neworg.png)
 
 Click on the + Invite Users to Your Organization button in the Users section.
    ![](img/invite.png)
