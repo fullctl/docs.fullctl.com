@@ -7,5 +7,5 @@ Enter the Organization Name, Slug and click Create.
 
    ![](img/createorgpopup.png)
    
-The new Organization will then appear next to the drop-down arrow. Your personal account and Organization you entered upon account creation will appear in the drop down menu.    
+The new Organization will then appear next to the drop-down arrow. Your personal account and Organization you entered upon account creation will appear in the drop-down menu.    
    ![](img/neworg.png)
