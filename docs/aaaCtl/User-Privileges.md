@@ -1,7 +1,7 @@
 # User Privileges
 
 To assign User privileges, click on the Manage button next to the User’s name. 
-   ![](img/manage.png)
+   ![](img/manageusers.png)
    
 User roles (e.g., admin, member) can be chosen from the drop-down menu. A user can have more than one role. Each role has specific read/write privileges by default. 
    ![](img/userpermissions.png)
