@@ -1,6 +1,6 @@
 # Account Dashboard
 
-To view the FullCtl Account Dashboard (aka aaaCtl), go to: account.fullctl.io, enter username (or email address)  and password and click Login. 
+To view the FullCtl Account Dashboard (aka aaaCtl), go to: [account.fullctl.io](https://account.fullctl.io), enter username (or email address)  and password and click Login. 
    ![](img/userpass.png)
 
 The Account Dashboard has three tabs - Organization Dashboard, User Account and Billing. 
@@ -12,8 +12,9 @@ The Account Dashboard has three tabs - Organization Dashboard, User Account and 
 
 **Billing** = add billing contact/method, view service charges, see order history
 
-# Organization Account Settings
+## Organization Account Settings
 The following options are in the  Organization Dashboard:
+
 - Organization Settings: Update organization name and password
 - Services: Description of and link to FullCtl applications
 - Users: List of Users within your Organization. User settings can be updated here
@@ -22,8 +23,9 @@ The following options are in the  Organization Dashboard:
   
    ![](img/orgtab.png)
    
-# Personal Account Settings
+## Personal Account Settings
 The following options are in the User Account area:
+
 - Account Information: Update email, name and username 
 - Organization Invites: View pending invitations to join other Organizations in FullCtl
 - Preferences: Opt in/out of release note email updates from FullCtl 
