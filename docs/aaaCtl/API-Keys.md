@@ -5,8 +5,8 @@
 Organizational API Keys can be added to an Organizational account. From the Organization Dashboard tab, click the drop arrow on the right side of the API Keys field to display the Create API Key button.
    ![](img/orgapikey.png)
 
-Clicking on the Mange button allows Users to set read/write permissions and view the API key.
-   ![](img/mangeapi.png)
+Clicking on the Manage button allows Users to set read/write permissions and view the API key.
+   ![](img/manageapi.png)
 
 Enter the Name and Email address and click Create.
    ![](img/apikeypopup.png)
