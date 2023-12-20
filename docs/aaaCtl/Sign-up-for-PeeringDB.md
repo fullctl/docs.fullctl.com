@@ -1,6 +1,6 @@
 # Sign up for PeeringDB
 
-Go to: [peeringdb.com](https://www.peeringdb.com).
+To authenticate your FullCtl account with PeeringDB, you will need a PeeringDB account. Authenticating helps FullCtl relate your networks to your organizations. To create a PeeringDB account, go to: [peeringdb.com](https://www.peeringdb.com).
   ![](img/pdbreg.png)
 
 Click on Register in the upper right corner of the screen.
