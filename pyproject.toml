@@ -7,6 +7,8 @@ authors = ["20C <code@20c.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 mkdocs = "^1.2.2"
+
+[tool.poetry.group.insiders.dependencies]
 mkdocs-material = {git = "ssh://git@git.20c.com/gh/squidfunk/mkdocs-material-insiders.git"}
 
 [tool.poetry.dev-dependencies]
