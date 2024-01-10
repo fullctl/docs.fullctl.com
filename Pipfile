@@ -5,9 +5,10 @@ verify_ssl = true
 
 [packages]
 mkdocs = "*"
+mkdocs-material = {git = "ssh://git@git.20c.com/gh/squidfunk/mkdocs-material-insiders.git"}
 
 [dev-packages]
 invoke = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
