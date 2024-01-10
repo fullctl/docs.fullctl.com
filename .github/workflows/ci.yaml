@@ -21,7 +21,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install poetry==1.4.2
           poetry install --without insiders
+      - name: Install mkdocs-material-insiders
+        run: |
+          poetry run pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - name: deploy mkdocs gh-pages site
         run: |
           poetry run mkdocs build
           poetry run mkdocs gh-deploy --force
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
