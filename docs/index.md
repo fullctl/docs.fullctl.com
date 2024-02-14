@@ -29,4 +29,5 @@ Contact us: <a href="mailto: hello@fullctl.com" target="_blank">hello@fullctl.co
 
 # FullCtl API Documentation
 To access the API from any page of the FullCtl website, click on the question mark icon in the lower right corner. In the popup, are links for Swagger and ReDoc.
+
 ![](img/apiaccess.png)
