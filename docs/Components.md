@@ -20,6 +20,9 @@ DeviceCtl is a FullCtl SoT designed to manage devices and how they interconnect;
 
 [GitHub Repository](https://github.com/fullctl/devicectl)
 
+[API Docs - Redoc](https://device.fullctl.com/apidocs/redoc)
+
+[API Docs - Swagger](https://device.fullctl.com/apidocs/swagger)
 ### ixCtl
 
 ixCtl is an automation platform built for internet exchange operators. Using our member management features, import your existing connected network list from PeeringDB or enter it manually, then use ixCtl to manage MAC addresses, IP addresses, or export as an IX-F connected networks list schema. ixCtl has an open source version designed as a toolkit to enhance flexibility for Internet Exchanges. An IX can run individual components as desired while still allowing for custom, granular integrations with limitless possibilities.
@@ -27,6 +30,10 @@ ixCtl is an automation platform built for internet exchange operators. Using our
 ixCtl takes data directly from PeeringDB and combines it with industry best practices to generate (and maintain) secure route server configurations. ixCtl automatically updates route server configurations over time as connected networks update their information. ixCtl is an excellent source of truth for wider automation efforts. When you deploy ixCtl at your IX, all of your connected networks get access to the PeerCtl dashboard to automatically update their mac addresses and as-sets directly.
 
 [GitHub Repository](https://github.com/fullctl/ixctl)
+
+[API Docs - Redoc](https://ix.fullctl.com/apidocs/redoc)
+
+[API Docs - Swagger](https://ix.fullctl.com/apidocs/swagger)
 
 ### pdbCtl
 
@@ -40,6 +47,9 @@ PeerCtl takes data directly from PeeringDB, combines it with your policies, and 
 
 [GitHub Repository](https://github.com/fullctl/peerctl)
 
+[API Docs - Redoc](https://peer.fullctl.com/apidocs/redoc)
+
+[API Docs - Swagger](https://peer.fullctl.com/apidocs/swagger)
 
 ### PrefixCtl
 
