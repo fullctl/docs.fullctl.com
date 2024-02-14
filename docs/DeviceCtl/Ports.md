@@ -8,3 +8,6 @@ Device details can be viewed using the tabs under Device Details. Clicking on pe
    
  The logical, physical and virtual ports can be managed on this page as well.
     ![](img/ports.png)
+
+IMPORTANT NOTE: When adding a Physical Port the exact device name on the physical port must be used.
+    ![](img/physicalports.png)
