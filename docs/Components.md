@@ -27,6 +27,7 @@ DeviceCtl is a FullCtl SoT designed to manage devices and how they interconnect;
 [API Docs - Redoc](https://device.fullctl.com/apidocs/redoc)
 
 [API Docs - Swagger](https://device.fullctl.com/apidocs/swagger)
+
 ### ixCtl
 
 ixCtl is an automation platform built for internet exchange operators. Using our member management features, import your existing connected network list from PeeringDB or enter it manually, then use ixCtl to manage MAC addresses, IP addresses, or export as an IX-F connected networks list schema. ixCtl has an open source version designed as a toolkit to enhance flexibility for Internet Exchanges. An IX can run individual components as desired while still allowing for custom, granular integrations with limitless possibilities.
