@@ -6,6 +6,10 @@ aaaCtl provides centralized authentication, authorization and accounting for Ful
 
 [GitHub Repository](https://github.com/fullctl/aaactl)
 
+[API Docs - Redoc](https://account.fullctl.io/apidocs/redoc)
+
+[API Docs - Swagger](https://account.fullctl.io/apidocs/swagger)
+
 ### aclCtl
 
 aclCtl is the FullCtl source of truth for access control list (ACL) and network policy information. It is used for managing traffic filtering and device security. aclCtl manages two components; both ACL structure (traffic filtering rules) and the application of those filters. It is expected that ACL structure will change infrequently and that the application of those policies will change more often. For example, if a new service is added to a PoP (Point of Presence) the ACL itself will not change, rather that new service will be added to comply with existing rule-sets. This allows for the automation of service turn up without human intervention.
