@@ -4,8 +4,6 @@ FullCtl is a network automation and orchestration software suite focused on prov
 
 In order to provide functionality for a variety of networks, FullCtl is made up of a number of modules. Some of these, like aclCtl, provide functionality to other modules, and some, like ixCtl provide interfaces and automation controllers directly. It should be noted that most modules do not act directly on your infrastructure, instead being communicated with by a variety of agents deployed in your infrastructure. These agents are typically containers providing services like route servers, but can also be proxy connections allowing your systems to securely communicate with FullCtl to obtain and act on information provided by the FullCtl SoT.
 
-[FullCtl GitHub Repository](https://github.com/fullctl/fullctl)
-
 # Why use FullCtl?
 
 FullCtl can take the hassle and complexity out of managing a complex infrastructure. Using our modules to track SoT, implement best practices like RPKI and ROAs, and provide backups can give you a leg up on managing your infrastructure in a secure and up to date manner.
