@@ -24,3 +24,8 @@ FullCtl can take the hassle and complexity out of managing a complex infrastruct
 ![](img/fullctlecosystem.png)
 
 Contact us: <a href="mailto: hello@fullctl.com" target="_blank">hello@fullctl.com</a>
+
+# FullCtl API Documentation
+To access the API documentation for any of the FullCtl components, in the component's website click on the question mark icon in the lower right corner. In the popup, are links for Swagger and ReDoc.
+
+![](img/apiaccess.png)
