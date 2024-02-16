@@ -1,5 +1,7 @@
 # FullCtl Component Overviews
 
+The common functionality for the components come from the FullCtl repository which can be found on [GitHub](https://github.com/fullctl/fullctl)
+
 ### aaaCtl
 
 aaaCtl provides centralized authentication, authorization and accounting for FullCtl. It is the centralized authentication service for FullCtl and it contains all RBAC (Role Based Access Control) identity information. You will interact with aaaCtl to add, remove, or change the permissions for all FullCtl users. FullCtl users include anyone or anything that will make network configuration changes. We say anyone or anything because the FullCtl IBN solution will allow applications to make network changes via API, in addition to users making changes via the various SoT GUIs.
