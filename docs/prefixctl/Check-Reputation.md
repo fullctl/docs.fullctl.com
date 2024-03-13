@@ -13,6 +13,11 @@ To update the reputation check, click Refresh. This may take a few moments to pr
 The Reputation status will appear as either “Issues” to indicate the check found a problem with one or more of the prefix sets or “Ok” to indicate there are no problems with the prefix sets. Click the arrow next to Show / Edit / Add Prefixes to expand the list. The specific prefix with issues will appear in the list view.
    ![](img/issuesok.png)
 
+A health check report can be viewed by hovering the cursor over the prefix badge (ok or issues). The report lists the first time the prefix was checked, the total number of times it has been checked, how many times there have been issues, and how many days the report has been clean.
+
+   ![](img/okreport.png)
+   ![](img/issuesreport.png)
+
 If the message “some lookups had failures” appears it means one of the sources failed during the generation process. Any failing source will invalidate the entire report. To remedy this situation, click on "Sources" to find out which one failed. Removing the identified IP from the prefix set will stop the error generation. 
    ![](img/failuresources.png)
 
