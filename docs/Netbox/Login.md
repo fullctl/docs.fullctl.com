@@ -1,4 +1,4 @@
-# Netbox Login
+# NetBox Login
 
 After you have worked with the FullCtl Team to integrate NetBox with your FullCtl account, you will be able to log into NetBox through FullCtl. 
 
