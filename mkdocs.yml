@@ -66,7 +66,7 @@ nav:
       - Delete Exchange: ixctl/Delete-Exchange.md
       - Source of Truth: ixctl/Source-of-Truth.md
       - Traffic: ixctl/Traffic.md
-    - Netbox:
+    - NetBox:
       - Overview: Netbox/Overview.md
       - Login: Netbox/Login.md
     - PeerCtl:
