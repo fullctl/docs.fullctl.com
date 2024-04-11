@@ -1,4 +1,4 @@
-# Add a Route Server
+# Traffic View
 
 A view of total traffic is available from the Traffic tab in the header menu.
    ![](img/traffic.png)
