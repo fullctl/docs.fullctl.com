@@ -47,7 +47,12 @@ nav:
       - Add Users: aaaCtl/Add-Users.md
       - User Privileges: aaaCtl/User-Privileges.md
       - API Keys: aaaCtl/API-Keys.md
-      - Billing: aaaCtl/Billing.md
+    - Billing:
+      - Overview: Billing/Overview.md
+      - Setup Payment by Credit Card: Billing/Setup-Payment-by-Credit-Card.md
+      - Setup Payment by ACH (Bank Transfer): Billing/Setup-Payment-by-ACH-(Bank-Transfer).md
+      - Subscriptions: Billing/Subscriptions.md
+      - Order History: Billing/Order-History.md
     - aclCtl:
       - Access Control List: aclCtl/Access-Control-List.md
       - Add a Rule: aclCtl/Add-a-Rule.md
