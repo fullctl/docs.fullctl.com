@@ -22,7 +22,6 @@ systemctl <command> fullctl-routeserver.service
 systemctl <command> fullctl-birdrefresh.service
 ```
 
-
 ## Interacting with Bird
 
 See the [Bird Documention](https://bird.network.cz/?get_doc&v=20&f=bird-4.html) for a full list of available commands.
@@ -53,7 +52,7 @@ birdc.sh show route
 
 The current bird config is available outside the container at `/srv/fullctl/rs/bird/etc/bird.conf`
 
-Bird logs are also available directly at `/srv/fullctl/rs/bird/var/log/bird.log`.
+Bird logs are also available directly at `/srv/fullctl/rs/bird/var/log/bird.log`
 
 Additionally logs for both containers `fullctl_routeserver` and `fullctl_birdrefresh` are viewable via the system journal or directly through the podman cli.
 
