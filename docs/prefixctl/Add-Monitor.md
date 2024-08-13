@@ -1,16 +1,14 @@
 # Add Monitor
 
-A Reputation Monitor can be assigned to each prefix set. Each prefix set can have only one Reputation Monitor. The Reputation Monitor will receive email notifications when reputation issues are found. When a Reputation Monitor is assigned, an automatic check will occur once per day.
+A Reputation Monitor can be added to each prefix set. The Reputation Monitor(s) will receive email notifications about reputation issues. When a Reputation Monitor is assigned, an automatic check will occur once per day.
+
+There are two types of of reputation monitoring to choose from. There is a daily option in which an email is sent once per day noting the status of the prefix set, whether it has changed from the previous day or not. The second option is to receive an email only when the prefix has issues.
+
+To add a reputation monitor to a prefix set, click Add a monitor to this set.
    ![](img/addmonitor.png)
 
-In the modal, choose ASN monitor or Reputation Monitor and click Continue. Note: ASN monitor has been temporarily disabled.
-   ![](img/monitorpop.png)
+In the modal, enter one or more email addresses and choose the daily email option or issues only option.
+   ![](img/monitormodal.png)
 
-If ASN Monitor is chosen, enter the preferred options in the next modal and click Continue. 
-   ![](img/asnmonitor.png)
-   
-If Reputation Monitor is chosen, enter the email address of the person who is to receive notifications.
-   ![](img/reputationmonitor.png)
-   
-When a Monitor has been assigned, the Reputation Monitor field will list Active and the options chosen will appear with check marks. Monitor information can be edited or deleted using the tools on the right side of the page.
+When a Monitor has been assigned, the Reputation Monitor field will list Active, Alert Type will be displayed and the notification email(s) will appear. Monitor information can be edited or deleted using the tools on the right side of the table.
    ![](img/monitorchosen.png)
