@@ -83,6 +83,7 @@ nav:
       - Add/Remove Network Connection: PeerCtl/AddRemove-Network-Connection.md
       - Set MD5 Password: PeerCtl/Set-MD5-Password.md
       - Set Policy & Device Type: PeerCtl/Set-Policy-Device-Type.md
+      - Peer Group Policy: PeerCtl/Peer-Group-Policy.md
       - Templates: PeerCtl/Templates.md
       - Request Peering Option 1: PeerCtl/Request-Peering-1.md
       - Request Peering Option 2: PeerCtl/Request-Peering-2.md
