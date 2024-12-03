@@ -75,7 +75,7 @@ A glossary of options is below:
 
 ## Step Two - Set the Policy
 Click on the Policies tab in the header menu and click the New Policy button. 
-   ![](img/nwepolicytab.png)
+   ![](img/newpolicytab.png)
 - Name: Enter a name for the policy. Create mirrored versions for IPv4 and IPv6.
 - Import Policy: Enter the slug used when creating the policy.
 - Check the “FullCtl Manged” box. This will pull in the information from the Peer Groups policy that was created. FullCtl Managed means that FullCtl will create and delete policies as needed, if you’re using externally controlled policies, leaving this box unchecked will mean that FullCtl does not touch any policy config.
