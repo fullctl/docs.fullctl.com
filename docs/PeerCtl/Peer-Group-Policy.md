@@ -2,6 +2,7 @@
 
 ## Step 1 - Create the Policy
 Click on the Peer groups tab in the header menu and click the Add Peer Group button. 
+
    ![](peergroupstab.png)
 
 In the modal:
@@ -12,6 +13,7 @@ In the modal:
 - Import Policy: The policy format is: as{{session.peer_asn}}{{ session.tag | dash_if }}-in-v4
 
 A glossary of options is below:
+
 ```
 **Fields**
 
@@ -67,6 +69,7 @@ A glossary of options is below:
 
 **acl_slug** (str | None) - ACL slug.
 ```
+
 - Export Policy: The policy format is: as{{session.peer_asn}}{{ session.tag | dash_if }}-in-v4
 - Choose the applicable checkboxes. Enforce first ASN, Soft reconfig, Multipath
 - Allow ASN in [?]: Enter a number to specify the number of times the detection of the local device’s AS in the AS_PATH attribute is allowed.
@@ -75,7 +78,9 @@ A glossary of options is below:
    ![](peergroupmodal.png)
 
 ## Step Two - Set the Policy
+
 Click on the Policies tab in the header menu and click the New Policy button. 
+
    ![](newpolicytab.png)
    
 - Name: Enter a name for the policy. Create mirrored versions for IPv4 and IPv6.
@@ -86,5 +91,5 @@ Click on the Policies tab in the header menu and click the New Policy button.
 - Peer Group: field can be blank.
 - FullCtl Manged: choose IPv4 or IPv6 based on which is being created
 - Save
-  
+
    ![](img/ipv4policy.png)
