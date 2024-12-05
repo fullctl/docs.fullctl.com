@@ -92,4 +92,4 @@ Click on the Policies tab in the header menu and click the New Policy button.
 - FullCtl Manged: choose IPv4 or IPv6 based on which is being created
 - Save
 
-   ![](img/ipv4policy.png)
+   ![](ipv4policy.png)
