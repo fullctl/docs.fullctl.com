@@ -74,6 +74,9 @@ nav:
     - NetBox:
       - Overview: Netbox/Overview.md
       - Login: Netbox/Login.md
+      - Add Device: Netbox/Add-Device.md
+      - Add Interface: Netbox/Add-Interface.md
+      - Add Transit: Netbox/Add-Transit.md
     - PeerCtl:
       - Definitions: PeerCtl/PeerCtl-Definitions.md
       - ASN Permissions: PeerCtl/ASN-Permissions.md
