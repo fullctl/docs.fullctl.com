@@ -1,4 +1,4 @@
-# Add Transit
+# Referee Configuration
 
 acl_handling.mode: merge
 
