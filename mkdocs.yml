@@ -78,6 +78,17 @@ nav:
       - Add Device: Netbox/Add-Device.md
       - Add Interface: Netbox/Add-Interface.md
       - Add Transit: Netbox/Add-Transit.md
+    - Referee:
+      - Overview: Referee/Overview.md
+      - Add Facilities: Referee/Add-Facilities.md
+      - Add Devices: Referee/Add-Devices.md
+      - Source of Truth Data Loading: Referee/Source-of-Truth-Data-Loading.md
+      - Variable diff and Report: Referee/Vairiable-diff-and-Report.md
+      - Configuration Templates: Referee/Configuration-Templates.md
+      - Making Changes: Referee/Making-Changes.md
+      - Referee Configuration: Referee/Referee-Configuration.md
+      - Change Requests: Referee/Change-Requests.md
+      - Jinja2 Template Variables: Referee/Jinja2-Template-Variables.md
     - PeerCtl:
       - Definitions: PeerCtl/PeerCtl-Definitions.md
       - ASN Permissions: PeerCtl/ASN-Permissions.md
