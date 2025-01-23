@@ -1,1 +1,3 @@
+# Referee Overview
 
+Referee is the orchestration engine that operates behind the FullCtl applications. When a configuration change is made in Netbox, Referee renders a new config then checks it against the system. Referee creates a merge request in Git that must be approved by a user before it will proceed to push out the new config. If the change is approved, the next time Process is run the approved config is pushed to the device. If the change request is denied, the system continues to use the existing config. All pending merge requests must be cleared in Git for a new config to be pushed. 
