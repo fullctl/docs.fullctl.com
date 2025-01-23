@@ -1,6 +1,6 @@
 # Add Device
 
-If a device is created in Netbox it will propagate into DeviceCtl. The next time Referee runs it discovers the new device, adds it into the inventory file hosts.yaml and creates a merge request (MR) in ```production``` repository to approve this change. Once the MR is merged, the new device will be processed by Referee.
+If a device is created in Netbox it will propagate into DeviceCtl. The next time Referee runs it discovers the new device, adds it into the inventory file hosts.yaml and creates a merge request (MR) in `production` repository to approve this change. Once the MR is merged, the new device will be processed by Referee.
 
 Click on Devices and the + symbol to add a new device.
 
