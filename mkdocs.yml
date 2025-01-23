@@ -71,6 +71,7 @@ nav:
       - Delete Exchange: ixctl/Delete-Exchange.md
       - Source of Truth: ixctl/Source-of-Truth.md
       - Traffic: ixctl/Traffic.md
+      - Traffic Alerts: ixctl/Traffic-Alerts.md
     - NetBox:
       - Overview: Netbox/Overview.md
       - Login: Netbox/Login.md
