@@ -24,4 +24,5 @@ In the following example, for an NXOS device named `lab-9k` at site `lab0`, it w
 2. `platform/nxos` 
 3. `site/lab0`
 4. `host/lab-9k`
+   
    ![](img/example.png)
