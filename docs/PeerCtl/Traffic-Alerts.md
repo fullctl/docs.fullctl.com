@@ -17,6 +17,7 @@ Click on the ASXXX tab in the upper right side of the window. Then click the gea
 Traffic alerts are seen on the IX page next to the speed. 
    ![](img/trafficalerts.png)
 
+## Alert Indicators
 When the traffic alert feature is activated, two types of traffic alert indicators appear.
 
 - Yellow triangle = alert was triggered in the past 30 days but is not currently active
