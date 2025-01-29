@@ -5,3 +5,6 @@ To add a peering session, click on the Summary tab in the header menu. Select th
 
 In the modal, enter the desired information.
    ![](img/peersessionmodal.png)
+
+Existing sessions can be edited by clicking on the pencil icon next to the desired peer.
+   ![](img/editpeer.png)
