@@ -44,6 +44,7 @@ When Referee is run, it first checks whether the device configuration has change
 
 This option is preferred over the Snippet option because Snippets must be customized to the device. 
 To make a change:
+
 1. Open the Repository and click on the Repository files. 
 2. Go to the YAML directory and find the file to be edited. 
 3. Click on the button called Web IDE to trigger the drop down menu. Click on Edit from the drop down menu. 
