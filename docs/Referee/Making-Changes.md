@@ -4,7 +4,9 @@ Referee ties device configuration into the FullCtl system. It is bi-directional 
 
 For configuration; when Referee identifies a change in a SoT, it creates the required merge request to apply those changes using conditions based on what is changing. Those conditions determine the exact steps for the CI/CD pipeline to execute. For example, changes that are considered “risky” could require human approval whereas changes considered “safe” will bypass human approval and execute fully automatically.
 
-For validation; when Referee identifies a change between any device’s running configuration and the known good running configuration in the validation repository it creates a new merge request in the `production` Repository. **NOTE:** Configuration that was intentionally removed from device running configuration must be also removed in the appropriate source of truth for this configuration, otherwise Referee will initiate the process to reapply the removed configuration.
+For validation; when Referee identifies a change between any device’s running configuration and the known good running configuration in the validation repository it creates a new merge request in the `production` Repository. 
+
+**NOTE:** Configuration that was intentionally removed from device running configuration must be also removed in the appropriate source of truth for this configuration, otherwise Referee will initiate the process to reapply the removed configuration.
 
 Referee is a process that runs regularly. The frequency can be set on a per organization basis.
 
@@ -25,10 +27,11 @@ When the changes are approved, Referee will pick them up and push them to the de
 5. Click on a device and make changes in the modal. The changes will appear in Nebox but not to the configuration. 
 6. Referee will find the change and create a merge request in the Git `production` Repository before the change is pushed into the device. 
 7. Open `production` Repository and review the request.
-   
 - If approved, it will be pushed to the device (you can then see this in the config).
 - If denied, the merge request is closed and the config change is not pushed to the device but it remains in the system.
+
 **Note:** When Referee runs again it will create another merge request, the same that was just rejected. At the time of the rejection, Referee does not know where the rejected configuration came from (Netbox/other) and does not know how to undo the change. The change must be approved or removed from the system manually by reverting the configuration in whatever system it originates.
+
 8. The change will also appear in DeviceCtl in the Ports tab under Device Details - Current Config. You may need to hard refresh DeviceCtl to see the change appear after the merge is approved. 
 
 ### Detect a Change of Configuration to a Network Device
@@ -49,11 +52,11 @@ To make a change:
 3. Click on the button called Web IDE to trigger the drop down menu. Click on Edit from the drop down menu. 
 4. Enter information into the text field. 
 5. Referee will then compare the changes in order to apply the change. A merge request will be generated.
-6. Open the Repository and review the request.
-   
+6. Open the Repository and review the request. 
     a. If approved, it will be pushed to the device (you can then see this in the config).
-   
-    b. If denied, the merge request is closed and the config change is not pushed to the device but it remains in the system. Note: When Referee runs again it will create another merge request. The change must be approved or removed from the system.
+    b. If denied, the merge request is closed and the config change is not pushed to the device but it remains in the system.
+
+   **Note:** When Referee runs again it will create another merge request. The change must be approved or removed from the system.
 
 **Option 2: Make a Configuration Change to a Snippet**
 
@@ -66,10 +69,10 @@ To make a change:
 4. Enter information into the text field. 
 5. Referee will then compare the changes in order to apply the snippet. A merge request will be generated.
 6. Open the Repository and review the request.
-   
    a. If approved, it will be pushed to the device (you can then see this in the config).
-   
-   b. If denied, the merge request is closed and the config change is not pushed to the device but it remains in the system. **Note:** When Referee runs again it will create another merge request. The change must be approved or removed from the system.
+   b. If denied, the merge request is closed and the config change is not pushed to the device but it remains in the system.
+
+   **Note:** When Referee runs again it will create another merge request. The change must be approved or removed from the system.
 
 **Errors (applies to changes made manually through YAML definitions and config Snippets)**
 
