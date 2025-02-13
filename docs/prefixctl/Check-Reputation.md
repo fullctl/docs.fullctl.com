@@ -31,3 +31,5 @@ If there issues they are noted in the summary at the top and detailed below.
 
 There are options to download the report as a PDF or CSV file. The report can be run for the full prefix set or for an individual prefix.
    ![](img/download.png)
+
+Note: There is a 1-day cache for data that appears on a report. If an update is made to address an issue noted in a report, it may take up to 24 hours for that change to be reflected on the report. 
