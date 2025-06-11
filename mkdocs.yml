@@ -90,9 +90,10 @@ nav:
       - Change Requests: Referee/Change-Requests.md
       - Jinja2 Template Variables: Referee/Jinja2-Template-Variables.md
     - PeerCtl:
-      - Definitions: PeerCtl/PeerCtl-Definitions.md
+      - Overview/Definitions: PeerCtl/PeerCtl-Definitions.md
       - ASN Permissions: PeerCtl/ASN-Permissions.md
       - Summary View: PeerCtl/Summary.md
+      - IX View: PeerCtl/IX-View.md
       - Add Peering Session: PeerCtl/Add-Peering-Session.md
       - Peering Settings: PeerCtl/Peering-Settings.md
       - Add/Remove Network Connection: PeerCtl/AddRemove-Network-Connection.md
@@ -108,6 +109,7 @@ nav:
       - Device Configuration: PeerCtl/Device-Configuration.md
       - Edit Network Settings: PeerCtl/ASN-Tab.md
       - Traffic Alerts: PeerCtl/Traffic-Alerts.md
+      - Flow Table: PeerCtl/Flow-Table.md
     - PrefixCtl:
       - Definitions: prefixctl/PrefixCtl-Definitions.md
       - Add Prefix Set: prefixctl/Add-Prefix-Set.md
