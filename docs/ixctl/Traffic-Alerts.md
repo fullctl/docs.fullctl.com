@@ -1,6 +1,6 @@
 # Add Device
 
-ixCtl can be configured to show high usage alerts to members when they reach a given use threshold. There is an option to send email alerts to Admins and (if desired) members as well. 
+ixCtl can be configured to show high usage alerts to members when they reach a given use threshold. There is an option to send email alerts to Admins and (if desired) members as well. The polling interval for traffic alerts is 5 minutes. 
 
 To set up traffic alerts, click on Settings in the header menu. Then choose Traffic Alerts from the menu on the left side of the window. 
    ![](img/ixtrafficalerts.png)
@@ -9,7 +9,7 @@ Enter a number between 1 and 100 in the Traffic Level (%) field. This number ind
 
 Enter a number between 1 and 1440 in the Notification Frequency (minutes) field. This number indicates the amount of time the traffic level must exceed the given level before an alert is triggered. 
 
-If email alerts are desired click the Operator Email Alerts box and/or the Member Email Alerts box. Select the Maximum Frequency (days) that emails will be sent. 
+If email alerts are desired click the Operator Email Alerts box and/or the Member Email Alerts box. Select the Maximum Frequency (days) that emails will be sent. A different interval can be set for the Operator than the Member. Choosing 7 for example, means an email will be sent once every 7 days. 
 
 Click Save. 
    ![](img/alertsettings.png)
