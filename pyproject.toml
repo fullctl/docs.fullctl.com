@@ -3,6 +3,7 @@ name = "docs.fullctl.com"
 version = "0.1.0"
 description = ""
 authors = ["20C <code@20c.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11.5"
