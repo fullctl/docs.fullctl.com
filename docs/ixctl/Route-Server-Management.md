@@ -81,3 +81,7 @@ Logging can be configured via /srv/fullctl/rs/bird/etc/logging.local
 log "/srv/bird/var/log/bird.log" all;
 log syslog all;
 ```
+
+## Filtering Intervals
+Filters are updated when members are added or removed in ixCtl. If a customer would like this done on a regularly scheduled basis, they can reach out to <support@20C.com> to make a request. It is recommended that updating is done every 48 hours, staggered across both route servers. 
+
